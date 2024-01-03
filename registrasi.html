@@ -1,120 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" /> -->
+      <link rel="stylesheet" href="/style.css">
     <style>
-        /* start reset */
-        html {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      /* start reset */
+      html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        /* config all */
-        @page {
-            margin: 0 5mm;
-            padding: 0;
-            font-family: 'Ubuntu', sans-serif;
-        }
+      /* config all */
+      @page {
+        margin: 0 5mm;
+        padding: 0;
+        font-family: "Ubuntu", sans-serif;
+      }
 
-        header {
-            margin-top: 5mm;
-            overflow: auto;
-        }
+      header {
+        margin-top: 5mm;
+        overflow: auto;
+      }
 
-        header p {
-            padding: 0;
-            margin: 0;
-        }
+      header p {
+        padding: 0;
+        margin: 0;
+      }
 
-        header>.kop-logo {
-            float: left;
-            width: 2cm;
-            height: 2cm;
-        }
+      header > .kop-logo {
+        float: left;
+        width: 2cm;
+        height: 2cm;
+      }
 
+      .f300 {
+        font-weight: 300;
+      }
 
-        .f300 {
-            font-weight: 300;
-        }
+      .f400 {
+        font-weight: 400;
+      }
 
-        .f400 {
-            font-weight: 400;
-        }
+      .f500 {
+        font-weight: 500;
+      }
 
-        .f500 {
-            font-weight: 500;
-        }
+      .f700 {
+        font-weight: 700;
+      }
 
-        .f700 {
-            font-weight: 700;
-        }
+      .condensed {
+        font-family: "Ubuntu Condensed", sans-serif;
+        font-weight: 400;
+      }
 
-        .condensed {
-            font-family: 'Ubuntu Condensed', sans-serif;
-            font-weight: 400;
-        }
+      .mono {
+        font-family: "Ubuntu Mono", monospace;
+      }
 
-        .mono {
-            font-family: 'Ubuntu Mono', monospace;
-        }
-
-        .noto {
-            font-family: 'Noto Serif', serif;
-            font-style: italic;
-        }
+      .noto {
+        font-family: "Noto Serif", serif;
+        font-style: italic;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- kop -->
     <header>
-        <div class="kop-logo">asd</div>
-        <div class="kop-text">
-            <p>Pondok Pesantren</p>
-            <p>Syaichona Moch Cholil</p>
-            <p>Jl Demangan ...</p>
-        </div>
-        <hr>
+      <div class="kop-logo">asd</div>
+      <div class="kop-text">
+        <p>Pondok Pesantren</p>
+        <p>Syaichona Moch Cholil</p>
+        <p>Jl Demangan ...</p>
+      </div>
+      <hr />
     </header>
     <main>
-        <p class="f300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="f400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="f500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="f700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="condensed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis
-            eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="mono">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
-        <p class="noto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima ad blanditiis eum,
-            excepturi, veritatis cupiditate, earum similique fugiat incidunt quis nobis culpa sequi enim mollitia
-            exercitationem reprehenderit eius officiis.</p>
+      <p class="f300">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="f400">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="f500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="f700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="condensed">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="mono">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
+      <p class="noto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
+        similique fugiat incidunt quis nobis culpa sequi enim mollitia
+        exercitationem reprehenderit eius officiis.
+      </p>
     </main>
     <footer></footer>
-</body>
-
+  </body>
 </html>

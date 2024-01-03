@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 21cm;
+  height: 29, 7cm;
+  background-color: antiquewhite;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.header img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+.teks-kop {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+.jalan-kop {
+  margin: 5px 0 0px 0;
+}
+.institution-info {
+  width: 100vh;
+}
+.separator {
+  border-top: 2px solid black;
+}
+
+/* ISI FORMULIR */
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+}
+
+table tr td {
+  border: 1px solid black;
+}
+.col-label {
+  width: 30mm;
+}
+
+/* NOMOR-NOMOR SEDANG DIKERJAKAN */
+
+.pendaftaran {
+  width: 100%;
+}
+
+.pendaftaran tr {
+  float: left;
+  width: 33.33%;
+}
+
+.pendaftaran::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* SAMPAI DISINI */
+
+h2 {
+  text-align: center;
+}
+
+/* IDENTITAS DAN RIWAYAT SEDANG DIKERJAKAN  */
+.table-dua {
+  width: 100%;
+}
+
+.table-dua tr {
+  float: left;
+  width: 50%;
+}
+
+.table-dua::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* SAMPAI DISINI */
+
+/*  */
+.tgl-diterima {
+  text-align: center;
+}
+/*  */
+
+.signatures,
+.additional-signatures {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.signature-item {
+  width: 30%;
+}

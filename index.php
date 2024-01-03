@@ -36,6 +36,9 @@
     // Render PDF
     $dompdf->render();
 
+
+
+
     // Tampilkan PDF di browser
     $pdfContent = $dompdf->output();
     ?>
