@@ -22,18 +22,20 @@
 
   <body>
     <!-- KOP SURAT -->
-    <header class="header">
-      <img src="/LOGO KEMENAG PNG-1-1.png" alt="Logo" />
-      <div class="institution-info">
-        <p class="teks-kop">Pondok Pesantren</p>
-        <p class="teks-kop">Syaichona Moch Cholil</p>
-        <p class="jalan-kop">
-          Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
-          69115
-        </p>
+    <header class="kop">
+      <div class="header">
+        <img src="/LOGO KEMENAG PNG-1-1.png" alt="Logo" />
+        <div class="institution-info">
+          <p class="teks-kop">Pondok Pesantren</p>
+          <p class="teks-kop">Syaichona Moch Cholil</p>
+          <p class="jalan-kop">
+            Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
+            69115
+          </p>
+        </div>
       </div>
       <!-- Separator Line -->
-      <div class="separator"></div>
+      <div class="garis-bold"></div>
     </header>
 
     <!-- Form Container -->
@@ -167,7 +169,7 @@
       </div>
 
       <!-- Identitas Orang Tua -->
-      <div class="form-section">
+      <div>
         <h3>Identitas Orang Tua</h3>
         <table>
           <tr>
@@ -180,11 +182,20 @@
             <td>:</td>
             <td>Bangkalan, 01 Desember 1890 (12 th.)</td>
           </tr>
-          <tr>
-            <td class="col-label">NIK</td>
-            <td>:</td>
-            <td>352461211112</td>
-          </tr>
+          <div class="nik-hidup">
+            <table class="table-dua">
+              <tr>
+                <td class="col-label">NIK</td>
+                <td>:</td>
+                <td>352461211112</td>
+              </tr>
+              <tr>
+                <td class="col-label">Hidup</td>
+                <td>:</td>
+                <td>Ya</td>
+              </tr>
+            </table>
+          </div>
         </table>
         <br />
         <table>
@@ -198,11 +209,20 @@
             <td>:</td>
             <td>Bangkalan, 11 Desember 1990 (12 th.)</td>
           </tr>
-          <tr>
-            <td class="col-label">NIK</td>
-            <td>:</td>
-            <td>352461211112</td>
-          </tr>
+          <div class="nik-hidup">
+            <table class="table-dua">
+              <tr>
+                <td class="col-label">NIK</td>
+                <td>:</td>
+                <td>352461211112</td>
+              </tr>
+              <tr>
+                <td class="col-label">Hidup</td>
+                <td>:</td>
+                <td>Ya</td>
+              </tr>
+            </table>
+          </div>
         </table>
       </div>
 
@@ -221,26 +241,55 @@
             <td>:</td>
             <td>Jakarta, 12 April 1989 (12 th.)</td>
           </tr>
-          <tr>
-            <td class="col-label">NIK</td>
-            <td>:</td>
-            <td>352461211112</td>
-          </tr>
-          <tr>
-            <td class="col-label">Pekerjaan</td>
-            <td>:</td>
-            <td>Karyawan Swasta</td>
-          </tr>
-          <tr>
-            <td class="col-label">P Akhir Formal</td>
-            <td>:</td>
-            <td>S1 Sederajat</td>
-          </tr>
-          <tr>
-            <td class="col-label">Kontak</td>
-            <td>:</td>
-            <td>087870145778</td>
-          </tr>
+          <div>
+            <table class="table-dua">
+              <tr>
+                <td class="col-label">NIK</td>
+                <td>:</td>
+                <td>352461211112</td>
+              </tr>
+              <tr>
+                <td class="col-label">Hubungan</td>
+                <td>:</td>
+                <td>Ayah</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table class="table-dua">
+              <tr>
+                <td class="col-label">Pekerjaan</td>
+                <td>:</td>
+                <td>Karyawan Swasta</td>
+              </tr>
+              <tr>
+                <td class="col-label">Rp</td>
+                <td>:</td>
+                <td>20jt</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table class="table-dua">
+              <tr>
+                <td class="col-label">P Akhir Formal</td>
+                <td>:</td>
+                <td>S1 Sederajat</td>
+              </tr>
+              <tr>
+                <td class="col-label">P Akhir Diniyah</td>
+                <td>:</td>
+                <td>Aliyah</td>
+              </tr>
+            </table>
+          </div>
+          <table>
+            <tr>
+              <td class="col-label">Kontak</td>
+              <td>:</td>
+              <td>087870145778</td>
+            </tr>
+          </table>
         </table>
       </div>
 
@@ -288,6 +337,11 @@
       </div>
     </div>
 
-    <footer></footer>
+    <footer>
+      <p>
+        Formulir diberikan kepada: <br />
+        1) Wali Kelas; 2) Yang Bersangkutan.
+      </p>
+    </footer>
   </body>
 </html>

@@ -36,8 +36,8 @@ body {
 .institution-info {
   width: 100vh;
 }
-.separator {
-  border-top: 2px solid black;
+.garis-bold {
+  border-top: 1.5px solid black;
 }
 
 /* ISI FORMULIR */
@@ -96,6 +96,11 @@ h2 {
 
 /* SAMPAI DISINI */
 
+/* IDENTITAS ORTU */
+.dua {
+  float: left;
+  width: 45%;
+}
 /*  */
 .tgl-diterima {
   text-align: center;
