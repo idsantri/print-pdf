@@ -17,124 +17,467 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet" /> -->
-      <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <style>
-      /* start reset */
-      html {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+          /* start reset */
+          html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
 
-      /* config all */
-      @page {
-        margin: 0 5mm;
-        padding: 0;
-        font-family: "Ubuntu", sans-serif;
-      }
+          /* config all */
+          @page {
+            margin: 0 5mm;
+            padding: 10mm;
+            font-family: "Ubuntu", sans-serif;
+          }
+          body {
+            margin: 2mm;
+            padding: 1cm 1.5cm;
+            /* font-size: 12pt; */
+          }
 
-      header {
-        margin-top: 5mm;
-        overflow: auto;
-      }
+          header {
+            margin-top: 5mm;
+            overflow: auto;
+          }
 
-      header p {
-        padding: 0;
-        margin: 0;
-      }
+          header p {
+            padding: 0;
+            margin: 0;
+          }
+          header > .img-logo {
+            float: left;
+            width: 120px;
+            height: 80px;
+          }
+          .img-logo img {
+            width: 100%;
+          }
+          .teks-kop {
+            font-weight: bold;
+            font-size: 20px;
+          }
+          .jalan-kop {
+            margin-top: 5px;
+            margin-bottom: 20px;
+          }
 
-      header > .kop-logo {
-        float: left;
-        width: 2cm;
-        height: 2cm;
-      }
+          /* PENDAFTARA */
+          .form-container {
+            /* max-width: 800px; */
+            margin: 0 auto;
+            /* padding: 20px; */
+          }
 
-      .f300 {
-        font-weight: 300;
-      }
+          table tr td {
+            border: 1px solid black;
+          }
+          .col-label {
+            width: 30mm;
+          }
+          .pendaftaran tr {
+            float: left;
+          }
+          /*  */
 
-      .f400 {
-        font-weight: 400;
-      }
+          h2 {
+            text-align: center;
+          }
 
-      .f500 {
-        font-weight: 500;
-      }
+          /* IDENTITAS DAN RIWAYAT SEDANG DIKERJAKAN  */
+          .table-dua {
+            width: 100%;
+          }
 
-      .f700 {
-        font-weight: 700;
-      }
+          .table-dua tr {
+            float: left;
+            width: 50%;
+          }
 
-      .condensed {
-        font-family: "Ubuntu Condensed", sans-serif;
-        font-weight: 400;
-      }
+          .table-dua::after {
+            /* content: "";
+      display: table;
+      clear: both; */
+          }
 
-      .mono {
-        font-family: "Ubuntu Mono", monospace;
-      }
+          /* SAMPAI DISINI */
 
-      .noto {
-        font-family: "Noto Serif", serif;
-        font-style: italic;
-      }
+          /* IDENTITAS ORTU */
+          .dua {
+            float: left;
+            width: 45%;
+          }
+          /*  */
+          .tgl-diterima {
+            text-align: center;
+          }
+          /*  */
+
+          .signatures,
+          .additional-signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            align-items: center;
+            text-align: center;
+          }
+
+          .signature-item {
+            width: 30%;
+          }
+
+           Clearfix
+          .cf:before,
+          .cf:after {
+            content: " "; /* 1 */
+            display: table; /* 2 */
+          }
+
+          .cf:after {
+            clear: both;
+          }
+
+          .cf {
+            *zoom: 1;
+          } */
     </style>
   </head>
 
   <body>
-    <!-- kop -->
+    <!-- KOP SURAT -->
     <header>
-      <div class="kop-logo">asd</div>
+      <div class="img-logo">
+        <img src="LOGO KEMENAG PNG-1-1.png" alt=" Pesantren" />
+      </div>
       <div class="kop-text">
-        <p>Pondok Pesantren</p>
-        <p>Syaichona Moch Cholil</p>
-        <p>Jl Demangan ...</p>
+        <p class="teks-kop">Pondok Pesantren</p>
+        <p class="teks-kop">Syaichona Moch Cholil</p>
+        <p class="jalan-kop">
+          Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
+          69115
+        </p>
       </div>
       <hr />
     </header>
     <main>
-      <p class="f300">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="f400">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="f500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="f700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="condensed">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="mono">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
-      <p class="noto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        minima ad blanditiis eum, excepturi, veritatis cupiditate, earum
-        similique fugiat incidunt quis nobis culpa sequi enim mollitia
-        exercitationem reprehenderit eius officiis.
-      </p>
+      <!-- Formulir Pendaftaran -->
+      <div class="form-section">
+        <table class="pendaftaran">
+          <tr>
+            <td class="col-label">ID Santri</td>
+
+            <td>6649</td>
+          </tr>
+          <tr>
+            <td class="col-label">No Urut</td>
+
+            <td>21</td>
+          </tr>
+          <tr>
+            <td class="col-label">NISN</td>
+
+            <td>01175214</td>
+          </tr>
+        </table>
+        <div>
+          <p>
+            Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
+          </p>
+        </div>
+      </div>
+
+      <!-- Form Container -->
+      <div class="form-container">
+        <h2>Formulir Pendaftaran</h2>
+
+        <!-- Formulir Pendaftaran -->
+        <div class="form-section">
+          <table class="pendaftaran">
+            <tr>
+              <td class="col-label">ID Santri</td>
+
+              <td>6649</td>
+            </tr>
+            <tr>
+              <td class="col-label">No Urut</td>
+
+              <td>21</td>
+            </tr>
+            <tr>
+              <td class="col-label">NISN</td>
+
+              <td>01175214</td>
+            </tr>
+          </table>
+          <div>
+            <p>
+              Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
+            </p>
+          </div>
+        </div>
+
+        <!-- Identitas Santri -->
+        <div class="form-section cf">
+          <h3>Identitas Santri</h3>
+          <table>
+            <tr>
+              <td class="col-label">Nama</td>
+              <td>Dhoifur Rohman</td>
+            </tr>
+            <tr>
+              <td class="col-label">alias</td>
+              <td>Dhoifur</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kelahiran</td>
+
+              <td>Bangkalan, 06 Desember 2002 (12 th.)</td>
+            </tr>
+            <div class="nik-kk cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">NIK</td>
+                  <td>352461211112</td>
+                </tr>
+                <tr>
+                  <td class="col-label">KK</td>
+                  <td>6241500008900002</td>
+                </tr>
+              </table>
+            </div>
+            <tr>
+              <td class="col-label">Alamat</td>
+              <td>Dsn. Kwanyar Tanjung Bumi Bangkalan</td>
+            </tr>
+            <div class="desa-kec cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">Desa</td>
+                  <td>Bumi Anyar</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Kecamatan</td>
+                  <td>Tanjung Bumi</td>
+                </tr>
+              </table>
+            </div>
+            <div class="kab-prov cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">Kabupaten</td>
+                  <td>Bangkalan</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Provinsi</td>
+                  <td>Jawa Timur</td>
+                </tr>
+              </table>
+            </div>
+            <div class="kodepos-kelamin cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">Kode Pos</td>
+                  <td>69115</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Jenis Kelamin</td>
+                  <td>Laki-laki</td>
+                </tr>
+              </table>
+            </div>
+          </table>
+        </div>
+
+        <!-- Riwayat Pendidikan Terakhir -->
+        <div class="form-section">
+          <h3>Riwayat Pendidikan Terakhir</h3>
+          <table>
+            <tr>
+              <td class="col-label">Formal</td>
+
+              <td>SMP/Sederajat, Lulus</td>
+            </tr>
+            <tr>
+              <td class="col-label">Diniyah</td>
+              <td>Tsanawiyah, Lulus</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Identitas Orang Tua -->
+        <div>
+          <h3>Identitas Orang Tua</h3>
+          <table>
+            <tr>
+              <td class="col-label">Ayah</td>
+
+              <td>Abu Rohman</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kelahiran</td>
+
+              <td>Bangkalan, 01 Desember 1890 (12 th.)</td>
+            </tr>
+            <div class="nik-hidup cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">NIK</td>
+
+                  <td>352461211112</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Hidup</td>
+
+                  <td>Ya</td>
+                </tr>
+              </table>
+            </div>
+          </table>
+          <br />
+          <table>
+            <tr>
+              <td class="col-label">Ibu</td>
+
+              <td>Ummi Rohman</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kelahiran</td>
+
+              <td>Bangkalan, 11 Desember 1990 (12 th.)</td>
+            </tr>
+            <div class="nik-hidup cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">NIK</td>
+
+                  <td>352461211112</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Hidup</td>
+
+                  <td>Ya</td>
+                </tr>
+              </table>
+            </div>
+          </table>
+        </div>
+
+        <!-- Identitas Wali -->
+        <div class="form-section">
+          <h3>Identitas Wali</h3>
+          <table>
+            <tr>
+              <td class="col-label">Ayah</td>
+
+              <td class="col-label">Abu Rohman</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kelahiran</td>
+
+              <td>Jakarta, 12 April 1989 (12 th.)</td>
+            </tr>
+            <div class="cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">NIK</td>
+
+                  <td>352461211112</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Hubungan</td>
+
+                  <td>Ayah</td>
+                </tr>
+              </table>
+            </div>
+            <div class="cf">
+              <table class="table-dua">
+                <tr>
+                  <td class="col-label">Pekerjaan</td>
+
+                  <td>Karyawan Swasta</td>
+                </tr>
+                <tr>
+                  <td class="col-label">Rp</td>
+
+                  <td>20jt</td>
+                </tr>
+              </table>
+            </div>
+            <div class="cf">
+              <table class="table-dua">
+                <tr>
+                  <td>P Akhir Formal</td>
+                  <td>S1 Sederajat</td>
+                </tr>
+                <tr>
+                  <td>P Akhir Diniyah</td>
+                  <td>Aliyah</td>
+                </tr>
+              </table>
+            </div>
+            <table>
+              <tr>
+                <td class="col-label">Kontak</td>
+
+                <td>087870145778</td>
+              </tr>
+            </table>
+          </table>
+        </div>
+
+        <!-- Informasi Penerimaan -->
+        <div class="form-section">
+          <h3>Diterima di :</h3>
+          <table class="pendaftaran">
+            <tr>
+              <td class="col-label">Kamar</td>
+
+              <td>A-07</td>
+            </tr>
+            <tr>
+              <td>Kelas</td>
+
+              <td>1-B</td>
+            </tr>
+            <tr>
+              <td>Tingkat</td>
+
+              <td>Ibtidaiyah</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <!-- Tanggal Penerimaan -->
+        <div class="form-section">
+          <p class="tgl-diterima">
+            Bangkalan, 14 Jumadal Akhirah 1445 H | 27 Desember 2023 M
+          </p>
+        </div>
+
+        <!-- Tanda-tangan -->
+        <div class="signatures">
+          <p class="signature-item">Santri</p>
+          <p class="signature-item">Wali</p>
+          <p class="signature-item">Petugas</p>
+        </div>
+
+        <!-- Additional Signatures -->
+        <div class="additional-signatures">
+          <p class="signature-item">Nama Santri</p>
+          <p class="signature-item">Nama Wali</p>
+          <p class="signature-item">Nama Petugas</p>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          Formulir diberikan kepada: <br />
+          1) Wali Kelas; 2) Yang Bersangkutan.
+        </p>
+      </footer>
     </main>
     <footer></footer>
   </body>

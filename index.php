@@ -27,6 +27,8 @@
     ]);
 
     // Load HTML yang ingin dijadikan PDF
+    // $html = file_get_contents("registrasi-coba.html");
+    
     $html = file_get_contents("registrasi.html");
 
     // Load HTML ke DOMPDF

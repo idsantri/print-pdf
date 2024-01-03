@@ -45,10 +45,6 @@ body {
   max-width: 800px;
   margin: 0 auto;
   /* padding: 20px; */
-  overflow: auto;
-}
-.form-section {
-  overflow: auto;
 }
 
 table tr td {
@@ -70,9 +66,9 @@ table tr td {
 }
 
 .pendaftaran::after {
-  content: "";
+  /* content: "";
   display: table;
-  clear: both;
+  clear: both; */
 }
 
 /* SAMPAI DISINI */
@@ -92,9 +88,9 @@ h2 {
 }
 
 .table-dua::after {
-  content: "";
+  /* content: "";
   display: table;
-  clear: both;
+  clear: both; */
 }
 
 /* SAMPAI DISINI */
