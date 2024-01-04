@@ -19,132 +19,80 @@
       rel="stylesheet" /> -->
     <link rel="stylesheet" href="/style.css" />
     <style>
-          /* start reset */
-          html {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-          }
+      /* start reset */
+      html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-          /* config all */
-          @page {
-            margin: 0 5mm;
-            padding: 10mm;
-            font-family: "Ubuntu", sans-serif;
-          }
-          body {
-            margin: 2mm;
-            padding: 1cm 1.5cm;
-            /* font-size: 12pt; */
-          }
+      /* config all */
+      @page {
+        margin: 0 5mm;
+        padding: 10mm;
+        font-family: "Ubuntu", sans-serif;
+      }
+      body {
+        margin: 2mm;
+        padding: 1cm 1.5cm;
+        font-size: 10pt;
+      }
+      header {
+        margin-top: 5mm;
+        overflow: auto;
+      }
+      header p {
+        padding: 0;
+        margin: 0;
+      }
+      header > .img-logo {
+        float: left;
+        width: 120px;
+        height: 80px;
+      }
+      .img-logo img {
+        width: 100%;
+      }
+      .teks-kop {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .jalan-kop {
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
 
-          header {
-            margin-top: 5mm;
-            overflow: auto;
-          }
-
-          header p {
-            padding: 0;
-            margin: 0;
-          }
-          header > .img-logo {
-            float: left;
-            width: 120px;
-            height: 80px;
-          }
-          .img-logo img {
-            width: 100%;
-          }
-          .teks-kop {
-            font-weight: bold;
-            font-size: 20px;
-          }
-          .jalan-kop {
-            margin-top: 5px;
-            margin-bottom: 20px;
-          }
-
-          /* PENDAFTARA */
-          .form-container {
-            /* max-width: 800px; */
-            margin: 0 auto;
-            /* padding: 20px; */
-          }
-
-          table tr td {
-            border: 1px solid black;
-          }
-          .col-label {
-            width: 30mm;
-          }
-          .spasi-td{
-            width: 10mm;
-          }
-          .pendaftaran tr {
-            float: left;
-          }
-          /*  */
-
-          h2 {
-            text-align: center;
-          }
-
-          /* IDENTITAS DAN RIWAYAT SEDANG DIKERJAKAN  */
-          .table-dua {
-            width: 100%;
-          }
-
-          .table-dua tr {
-            float: left;
-            width: 50%;
-          }
-
-          .table-dua::after {
-            /* content: "";
-      display: table;
-      clear: both; */
-          }
-
-          /* SAMPAI DISINI */
-
-          /* IDENTITAS ORTU */
-          .dua {
-            float: left;
-            width: 45%;
-          }
-          /*  */
-          .tgl-diterima {
-            text-align: center;
-          }
-          /*  */
-
-          .signatures,
-          .additional-signatures {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            align-items: center;
-            text-align: center;
-          }
-
-          .signature-item {
-            width: 30%;
-          }
-
-           Clearfix
-          .cf:before,
-          .cf:after {
-            content: " "; /* 1 */
-            display: table; /* 2 */
-          }
-
-          .cf:after {
-            clear: both;
-          }
-
-          .cf {
-            *zoom: 1;
-          } */
+      /* PENDAFTARAN */
+      .form-container {
+        margin: 0 auto;
+      }
+      .h3 {
+        margin: auto;
+        margin-top: 8px;
+      }
+      .clear-margin {
+        margin: auto;
+      }
+      table tr td {
+        /* border: 1px solid black; */
+      }
+      .col-label {
+        width: 30mm;
+      }
+      .spasi-td {
+        width: 10mm;
+      }
+      h2 {
+        /* font-size: 18px; */
+        margin: 5px auto;
+        text-align: center;
+      }
+      .tgl-diterima {
+        text-align: center;
+      }
+      .ttd-kolom {
+        margin: auto;
+      }
     </style>
   </head>
 
@@ -165,132 +113,84 @@
       <hr />
     </header>
     <main>
-      <!-- Formulir Pendaftaran -->
-      <div class="form-section">
-        <table class="pendaftaran">
-          <tr>
-            <td class="col-label">ID Santri</td>
-            <td>8541</td>
-            <td class="spasi-td"></td>
-            <td class="col-label">No Urut</td>
-            <td>99</td>
-            <td class="spasi-td"></td>
-            <td class="col-label">NIK</td>
-            <td class="spasi-td">52414210000004</td>
-          </tr>
-        </table>
-        <div>
-          <p>
-            Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
-          </p>
-        </div>
-      </div>
-
       <!-- Form Container -->
       <div class="form-container">
-        <h2>Formulir Pendaftaran</h2>
-
+        <h2>Formulir Pendaftaran Samtri Baru/Murid Baru</h2>
         <!-- Formulir Pendaftaran -->
         <div class="form-section">
           <table class="pendaftaran">
             <tr>
               <td class="col-label">ID Santri</td>
-
-              <td>6649</td>
-            </tr>
-            <tr>
+              <td>8541</td>
+              <td class="spasi-td"></td>
               <td class="col-label">No Urut</td>
-
-              <td>21</td>
-            </tr>
-            <tr>
-              <td class="col-label">NISN</td>
-
-              <td>01175214</td>
+              <td>99</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">NIK</td>
+              <td class="spasi-td">52414210000004</td>
             </tr>
           </table>
           <div>
-            <p>
+            <p class="clear-margin">
               Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
             </p>
           </div>
         </div>
 
         <!-- Identitas Santri -->
-        <div class="form-section cf">
-          <h3>Identitas Santri</h3>
+        <div class="form-section">
+          <h3 class="h3">Identitas Santri</h3>
           <table>
             <tr>
               <td class="col-label">Nama</td>
-              <td>Dhoifur Rohman</td>
+              <td colspan="4">Dhoifur Rohman</td>
             </tr>
             <tr>
               <td class="col-label">alias</td>
-              <td>Dhoifur</td>
+              <td colspan="4">Dhoifur</td>
             </tr>
             <tr>
               <td class="col-label">Kelahiran</td>
-
-              <td>Bangkalan, 06 Desember 2002 (12 th.)</td>
+              <td colspan="4">Bangkalan, 06 Desember 2002 (12 th.)</td>
             </tr>
-            <div class="nik-kk cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">NIK</td>
-                  <td>352461211112</td>
-                </tr>
-                <tr>
-                  <td class="col-label">KK</td>
-                  <td>6241500008900002</td>
-                </tr>
-              </table>
-            </div>
+            <tr>
+              <td class="col-label">NIK</td>
+              <td>352461211112</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">KK</td>
+              <td>6241500008900002</td>
+            </tr>
             <tr>
               <td class="col-label">Alamat</td>
-              <td>Dsn. Kwanyar Tanjung Bumi Bangkalan</td>
+              <td colspan="4">Dsn. Kwanyar Tanjung Bumi Bangkalan</td>
             </tr>
-            <div class="desa-kec cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">Desa</td>
-                  <td>Bumi Anyar</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Kecamatan</td>
-                  <td>Tanjung Bumi</td>
-                </tr>
-              </table>
-            </div>
-            <div class="kab-prov cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">Kabupaten</td>
-                  <td>Bangkalan</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Provinsi</td>
-                  <td>Jawa Timur</td>
-                </tr>
-              </table>
-            </div>
-            <div class="kodepos-kelamin cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">Kode Pos</td>
-                  <td>69115</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Jenis Kelamin</td>
-                  <td>Laki-laki</td>
-                </tr>
-              </table>
-            </div>
+            <tr>
+              <td class="col-label">Desa</td>
+              <td>Bumianyar</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Kecamatan</td>
+              <td>Tanjung Bumi</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kabupaten</td>
+              <td>Bangkalan</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Provinsi</td>
+              <td>Jawa Timur</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kode Pos</td>
+              <td>69115</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Jenis Kelamin</td>
+              <td>Laki-laki</td>
+            </tr>
           </table>
         </div>
 
         <!-- Riwayat Pendidikan Terakhir -->
         <div class="form-section">
-          <h3>Riwayat Pendidikan Terakhir</h3>
+          <h3 class="h3">Riwayat Pendidikan Terakhir</h3>
           <table>
             <tr>
               <td class="col-label">Formal</td>
@@ -306,144 +206,98 @@
 
         <!-- Identitas Orang Tua -->
         <div>
-          <h3>Identitas Orang Tua</h3>
+          <h3 class="h3">Identitas Orang Tua</h3>
           <table>
             <tr>
               <td class="col-label">Ayah</td>
-
-              <td>Abu Rohman</td>
+              <td colspan="4">Abu Rohman</td>
             </tr>
             <tr>
               <td class="col-label">Kelahiran</td>
-
-              <td>Bangkalan, 01 Desember 1890 (12 th.)</td>
+              <td colspan="4">Bangkalan, 01 Desember 1890 (12 th.)</td>
             </tr>
-            <div class="nik-hidup cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">NIK</td>
-
-                  <td>352461211112</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Hidup</td>
-
-                  <td>Ya</td>
-                </tr>
-              </table>
-            </div>
+            <tr>
+              <td class="col-label">NIK</td>
+              <td>352461211112</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Hidup</td>
+              <td>Ya</td>
+            </tr>
           </table>
           <br />
           <table>
             <tr>
               <td class="col-label">Ibu</td>
-
-              <td>Ummi Rohman</td>
+              <td colspan="4">Ummi Rohman</td>
             </tr>
             <tr>
               <td class="col-label">Kelahiran</td>
-
-              <td>Bangkalan, 11 Desember 1990 (12 th.)</td>
+              <td colspan="4">Bangkalan, 11 Desember 1990 (12 th.)</td>
             </tr>
-            <div class="nik-hidup cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">NIK</td>
-
-                  <td>352461211112</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Hidup</td>
-
-                  <td>Ya</td>
-                </tr>
-              </table>
-            </div>
+            <tr>
+              <td class="col-label">NIK</td>
+              <td>352461211112</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Hidup</td>
+              <td>Ya</td>
+            </tr>
           </table>
         </div>
 
         <!-- Identitas Wali -->
         <div class="form-section">
-          <h3>Identitas Wali</h3>
+          <h3 class="h3">Identitas Wali</h3>
           <table>
             <tr>
               <td class="col-label">Ayah</td>
-
-              <td class="col-label">Abu Rohman</td>
+              <td colspan="4">Abu Rohman</td>
             </tr>
             <tr>
               <td class="col-label">Kelahiran</td>
-
-              <td>Jakarta, 12 April 1989 (12 th.)</td>
+              <td colspan="4">Jakarta, 12 April 1989 (12 th.)</td>
             </tr>
-            <div class="cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">NIK</td>
+            <tr>
+              <td class="col-label">NIK</td>
+              <td>352461211112</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Hubungan</td>
+              <td>Ayah</td>
+            </tr>
+            <tr>
+              <td class="col-label">Pekerjaan</td>
+              <td>Karyawan Swasta</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Rp</td>
+              <td>20jt</td>
+            </tr>
+            <tr>
+              <td>P Akhir Formal</td>
+              <td>S1 Sederajat</td>
+              <td class="spasi-td"></td>
+              <td>P Akhir Diniyah</td>
+              <td>Aliyah</td>
+            </tr>
+            <tr>
+              <td class="col-label">Kontak</td>
 
-                  <td>352461211112</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Hubungan</td>
-
-                  <td>Ayah</td>
-                </tr>
-              </table>
-            </div>
-            <div class="cf">
-              <table class="table-dua">
-                <tr>
-                  <td class="col-label">Pekerjaan</td>
-
-                  <td>Karyawan Swasta</td>
-                </tr>
-                <tr>
-                  <td class="col-label">Rp</td>
-
-                  <td>20jt</td>
-                </tr>
-              </table>
-            </div>
-            <div class="cf">
-              <table class="table-dua">
-                <tr>
-                  <td>P Akhir Formal</td>
-                  <td>S1 Sederajat</td>
-                </tr>
-                <tr>
-                  <td>P Akhir Diniyah</td>
-                  <td>Aliyah</td>
-                </tr>
-              </table>
-            </div>
-            <table>
-              <tr>
-                <td class="col-label">Kontak</td>
-
-                <td>087870145778</td>
-              </tr>
-            </table>
+              <td>087870145778</td>
+            </tr>
           </table>
         </div>
 
         <!-- Informasi Penerimaan -->
         <div class="form-section">
-          <h3>Diterima di :</h3>
-          <table class="pendaftaran">
+          <h3 class="h3">Diterima di :</h3>
+          <table width="100%" class="pendaftaran">
             <tr>
               <td class="col-label">Kamar</td>
-
               <td>A-07</td>
-            </tr>
-            <tr>
-              <td>Kelas</td>
-
-              <td>1-B</td>
-            </tr>
-            <tr>
-              <td>Tingkat</td>
-
-              <td>Ibtidaiyah</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Kelas</td>
+              <td>I-B</td>
+              <td class="spasi-td"></td>
+              <td class="col-label">Tingkat</td>
+              <td class="spasi-td">Ibditidaiyah</td>
             </tr>
           </table>
         </div>
@@ -456,23 +310,32 @@
         </div>
 
         <!-- Tanda-tangan -->
-        <div class="signatures">
-          <p class="signature-item">Santri</p>
-          <p class="signature-item">Wali</p>
-          <p class="signature-item">Petugas</p>
-        </div>
-
-        <!-- Additional Signatures -->
-        <div class="additional-signatures">
-          <p class="signature-item">Nama Santri</p>
-          <p class="signature-item">Nama Wali</p>
-          <p class="signature-item">Nama Petugas</p>
+        <div class="ttd">
+          <table class="ttd-kolom">
+            <tr>
+              <td width="45mm" align="center">Santri</td>
+              <td class="spasi-td"></td>
+              <td width="45mm" align="center">Wali Santri</td>
+              <td class="spasi-td"></td>
+              <td width="45mm" align="center">Petugas</td>
+            </tr>
+            <td colspan="5" height="15mm"></td>
+            <tr>
+              <td width="45mm" align="center">Dhoifur Rohman</td>
+              <td class="spasi-td"></td>
+              <td width="45mm" align="center">Abu Rohman</td>
+              <td class="spasi-td"></td>
+              <td width="45mm" align="center">
+                Muhammad Fattah Hirarki al-Jadid
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
 
       <footer>
         <p>
-          Formulir diberikan kepada: <br />
+          <em> Formulir diberikan kepada:</em> <br />
           1) Wali Kelas; 2) Yang Bersangkutan.
         </p>
       </footer>
