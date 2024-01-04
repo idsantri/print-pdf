@@ -17,7 +17,6 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet" /> -->
-    <link rel="stylesheet" href="/style.css" />
     <style>
       /* start reset */
       html {
@@ -25,7 +24,9 @@
         padding: 0;
         box-sizing: border-box;
       }
-
+      table {
+        border-spacing: 0;
+      }
       /* config all */
       @page {
         margin: 0 5mm;
@@ -37,29 +38,18 @@
         padding: 1cm 1.5cm;
         font-size: 10pt;
       }
-      header {
-        margin-top: 5mm;
-        overflow: auto;
-      }
-      header p {
-        padding: 0;
-        margin: 0;
-      }
-      header > .img-logo {
-        float: left;
-        width: 120px;
-        height: 80px;
-      }
       .img-logo img {
-        width: 100%;
+        width: 100px;
       }
       .teks-kop {
+        padding: 0;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
       }
       .jalan-kop {
-        margin-top: 5px;
-        margin-bottom: 20px;
+        padding: 0;
+        /* margin-top: 5px;
+        margin-bottom: 20px; */
       }
 
       /* PENDAFTARAN */
@@ -69,12 +59,13 @@
       .h3 {
         margin: auto;
         margin-top: 8px;
+        padding-left: 1px;
       }
       .clear-margin {
         margin: auto;
       }
       table tr td {
-        /* border: 1px solid black; */
+        border: 1px solid black;
       }
       .col-label {
         width: 30mm;
@@ -99,17 +90,21 @@
   <body>
     <!-- KOP SURAT -->
     <header>
-      <div class="img-logo">
-        <img src="LOGO KEMENAG PNG-1-1.png" alt=" Pesantren" />
-      </div>
-      <div class="kop-text">
-        <p class="teks-kop">Pondok Pesantren</p>
-        <p class="teks-kop">Syaichona Moch Cholil</p>
-        <p class="jalan-kop">
-          Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
-          69115
-        </p>
-      </div>
+      <table>
+        <tr>
+          <th class="img-logo" rowspan="2">
+            <img src="LOGO KEMENAG PNG-1-1.png" alt="" />
+          </th>
+          <td class="teks-kop">Pondok Pesantren <br />Syaichona Moch Cholil</td>
+        </tr>
+
+        <tr>
+          <td class="jalan-kop">
+            Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
+            69115
+          </td>
+        </tr>
+      </table>
       <hr />
     </header>
     <main>
@@ -194,10 +189,8 @@
           <table>
             <tr>
               <td class="col-label">Formal</td>
-
               <td>SMP/Sederajat, Lulus</td>
-            </tr>
-            <tr>
+              <td class="spasi-td"></td>
               <td class="col-label">Diniyah</td>
               <td>Tsanawiyah, Lulus</td>
             </tr>
