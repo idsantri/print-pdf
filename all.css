@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu-Light"), url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Ubuntu-LightItalic"),
+    url("fonts/Ubuntu-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu-Regular"),
+    url("fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu-Italic"), url("fonts/Ubuntu-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu-Medium"), url("fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Ubuntu-MediumItalic"),
+    url("fonts/Ubuntu-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu-Bold"), url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu-BoldItalic"),
+    url("fonts/Ubuntu-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("UbuntuMono-Regular"),
+    url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: local("UbuntuMono-Italic"),
+    url("fonts/UbuntuMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local("UbuntuMono-Bold"),
+    url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: local("UbuntuMono-BoldItalic"),
+    url("fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+@page {
+  margin: 0;
+  padding: 0;
+}

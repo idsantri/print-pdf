@@ -5,41 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="http://localhost/print-pdf/all.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet" /> -->
+    <!-- live server -->
+    <!-- <link rel="stylesheet" href="http://127.0.0.1:5500/all.css" /> -->
+
     <style>
       /* start reset */
-      html {
-        margin: 0;
-        padding: 0;
+      html,
+      body {
         box-sizing: border-box;
-      }
-      table {
-        border-spacing: 0;
+        font-size: 11pt;
       }
       /* config all */
       @page {
-        margin: 0 5mm;
-        padding: 10mm;
-        font-family: "Ubuntu", sans-serif;
+        margin: 10mm;
+        margin-top: 5mm;
+        padding: 0;
       }
-      body {
-        margin: 2mm;
-        padding: 1cm 1.5cm;
-        font-size: 10pt;
+
+      table {
+        border-spacing: 0;
       }
       .img-logo img {
-        width: 100px;
+        width: 80px;
       }
       .teks-kop {
         padding: 0;
@@ -60,15 +49,22 @@
         margin: auto;
         margin-top: 8px;
         padding-left: 1px;
+        font-size: 11pt;
+        font-weight: 500;
       }
       .clear-margin {
         margin: auto;
       }
       table tr td {
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        padding: 0;
+        margin: 0;
+        line-height: 14px;
       }
       .col-label {
         width: 30mm;
+        font-weight: 300;
+        font-style: italic;
       }
       .spasi-td {
         width: 10mm;
@@ -92,10 +88,13 @@
     <header>
       <table>
         <tr>
-          <th class="img-logo" rowspan="2">
-            <img src="LOGO KEMENAG PNG-1-1.png" alt="" />
+          <th class="img-logo" rowspan="3">
+            <img src="logo.png" alt="" />
           </th>
-          <td class="teks-kop">Pondok Pesantren <br />Syaichona Moch Cholil</td>
+          <td class="teks-kop">Pondok Pesantren</td>
+        </tr>
+        <tr>
+          <td class="teks-kop">Syaichona Moch Cholil</td>
         </tr>
 
         <tr>
@@ -107,6 +106,7 @@
       </table>
       <hr />
     </header>
+
     <main>
       <!-- Form Container -->
       <div class="form-container">
@@ -318,7 +318,7 @@
               <td class="spasi-td"></td>
               <td width="45mm" align="center">Abu Rohman</td>
               <td class="spasi-td"></td>
-              <td width="45mm" align="center">
+              <td width="45mm" style="text-align: center">
                 Muhammad Fattah Hirarki al-Jadid
               </td>
             </tr>
