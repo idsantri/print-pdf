@@ -8,99 +8,29 @@
     <link rel="stylesheet" href="http://localhost/print-pdf/all.css" />
 
     <!-- live server -->
-    <!-- <link rel="stylesheet" href="http://127.0.0.1:5500/all.css" /> -->
-
-    <style>
-      /* start reset */
-      html,
-      body {
-        box-sizing: border-box;
-        font-size: 11pt;
-      }
-      /* config all */
-      @page {
-        margin: 10mm;
-        margin-top: 5mm;
-        padding: 0;
-      }
-
-      table {
-        border-spacing: 0;
-      }
-      .img-logo img {
-        width: 80px;
-      }
-      .teks-kop {
-        padding: 0;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      .jalan-kop {
-        padding: 0;
-        /* margin-top: 5px;
-        margin-bottom: 20px; */
-      }
-
-      /* PENDAFTARAN */
-      .form-container {
-        margin: 0 auto;
-      }
-      .h3 {
-        margin: auto;
-        margin-top: 8px;
-        padding-left: 1px;
-        font-size: 11pt;
-        font-weight: 500;
-      }
-      .clear-margin {
-        margin: auto;
-      }
-      table tr td {
-        /* border: 1px solid black; */
-        padding: 0;
-        margin: 0;
-        line-height: 14px;
-      }
-      .col-label {
-        width: 30mm;
-        font-weight: 300;
-        font-style: italic;
-      }
-      .spasi-td {
-        width: 10mm;
-      }
-      h2 {
-        /* font-size: 18px; */
-        margin: 5px auto;
-        text-align: center;
-      }
-      .tgl-diterima {
-        text-align: center;
-      }
-      .ttd-kolom {
-        margin: auto;
-      }
-    </style>
+    <link rel="stylesheet" href="http://127.0.0.1:5500/registrasi.css" />
   </head>
 
   <body>
     <!-- KOP SURAT -->
     <header>
-      <table>
-        <tr>
-          <th class="img-logo" rowspan="3">
-            <img src="logo.png" alt="" />
-          </th>
-          <td class="teks-kop">Pondok Pesantren</td>
-        </tr>
+      <div class="logo cf">
+        <img src="logo.png" alt="" />
+      </div>
+      <table class="kop">
+        <td>
+          <tr>
+            <td class="teks-kop">Pondok Pesantren</td>
+          </tr>
+        </td>
         <tr>
           <td class="teks-kop">Syaichona Moch Cholil</td>
         </tr>
-
         <tr>
           <td class="jalan-kop">
             Jl. KH. Moh. Kholil I/6, Demangan Barat, Kab. Bangkalan, Jawa Timur
-            69115
+            69115 <br />
+            Email : pp.syaichona@gmail.com WA : 087870145778
           </td>
         </tr>
       </table>
@@ -111,25 +41,23 @@
       <!-- Form Container -->
       <div class="form-container">
         <h2>Formulir Pendaftaran Samtri Baru/Murid Baru</h2>
+        <p class="clear-margin">
+          Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
+        </p>
         <!-- Formulir Pendaftaran -->
         <div class="form-section">
-          <table class="pendaftaran">
+          <table width="100%" class="pendaftaran">
             <tr>
               <td class="col-label">ID Santri</td>
               <td>8541</td>
               <td class="spasi-td"></td>
-              <td class="col-label">No Urut</td>
+              <td class="col-label2">No Urut</td>
               <td>99</td>
               <td class="spasi-td"></td>
-              <td class="col-label">NIK</td>
+              <td class="col-label2">NIK</td>
               <td class="spasi-td">52414210000004</td>
             </tr>
           </table>
-          <div>
-            <p class="clear-margin">
-              Tanggal Daftar Rabu Wage, 16 Agustus 2023 M | 29 Muharram 1445 H
-            </p>
-          </div>
         </div>
 
         <!-- Identitas Santri -->
@@ -191,7 +119,7 @@
               <td class="col-label">Formal</td>
               <td>SMP/Sederajat, Lulus</td>
               <td class="spasi-td"></td>
-              <td class="col-label">Diniyah</td>
+              <td class="col-label2">Diniyah</td>
               <td>Tsanawiyah, Lulus</td>
             </tr>
           </table>
@@ -199,7 +127,14 @@
 
         <!-- Identitas Orang Tua -->
         <div>
-          <h3 class="h3">Identitas Orang Tua</h3>
+          <table class="table-h3">
+            <tr>
+              <td class="h3" width="160px">Identitas Orang Tua</td>
+              <td class="id-ortu-wali">ID Orang Tua</td>
+              <td class="spasi-td2"></td>
+              <td>65241</td>
+            </tr>
+          </table>
           <table>
             <tr>
               <td class="col-label">Ayah</td>
@@ -213,7 +148,7 @@
               <td class="col-label">NIK</td>
               <td>352461211112</td>
               <td class="spasi-td"></td>
-              <td class="col-label">Hidup</td>
+              <td class="col-label2">Hidup</td>
               <td>Ya</td>
             </tr>
           </table>
@@ -231,7 +166,7 @@
               <td class="col-label">NIK</td>
               <td>352461211112</td>
               <td class="spasi-td"></td>
-              <td class="col-label">Hidup</td>
+              <td class="col-label2">Hidup</td>
               <td>Ya</td>
             </tr>
           </table>
@@ -239,7 +174,14 @@
 
         <!-- Identitas Wali -->
         <div class="form-section">
-          <h3 class="h3">Identitas Wali</h3>
+          <table class="table-h3">
+            <tr>
+              <td class="h3" width="160px">Identitas Wali</td>
+              <td class="id-ortu-wali">ID Wali</td>
+              <td class="spasi-td2"></td>
+              <td>0878</td>
+            </tr>
+          </table>
           <table>
             <tr>
               <td class="col-label">Ayah</td>
@@ -247,7 +189,9 @@
             </tr>
             <tr>
               <td class="col-label">Kelahiran</td>
-              <td colspan="4">Jakarta, 12 April 1989 (12 th.)</td>
+              <td colspan="3">Jakarta, 12 April 1989 (12 th.)</td>
+              <td class="col-label2">Kontak</td>
+              <td>087870145778</td>
             </tr>
             <tr>
               <td class="col-label">NIK</td>
@@ -264,16 +208,11 @@
               <td>20jt</td>
             </tr>
             <tr>
-              <td>P Akhir Formal</td>
+              <td class="col-label2">P Akhir Formal</td>
               <td>S1 Sederajat</td>
               <td class="spasi-td"></td>
-              <td>P Akhir Diniyah</td>
+              <td class="col-label2">P Akhir Diniyah</td>
               <td>Aliyah</td>
-            </tr>
-            <tr>
-              <td class="col-label">Kontak</td>
-
-              <td>087870145778</td>
             </tr>
           </table>
         </div>
@@ -286,15 +225,14 @@
               <td class="col-label">Kamar</td>
               <td>A-07</td>
               <td class="spasi-td"></td>
-              <td class="col-label">Kelas</td>
+              <td class="col-label2">Kelas</td>
               <td>I-B</td>
               <td class="spasi-td"></td>
-              <td class="col-label">Tingkat</td>
+              <td class="col-label2">Tingkat</td>
               <td class="spasi-td">Ibditidaiyah</td>
             </tr>
           </table>
         </div>
-        <br />
         <!-- Tanggal Penerimaan -->
         <div class="form-section">
           <p class="tgl-diterima">
@@ -307,19 +245,17 @@
           <table class="ttd-kolom">
             <tr>
               <td width="45mm" align="center">Santri</td>
-              <td class="spasi-td"></td>
               <td width="45mm" align="center">Wali Santri</td>
-              <td class="spasi-td"></td>
               <td width="45mm" align="center">Petugas</td>
             </tr>
             <td colspan="5" height="15mm"></td>
             <tr>
               <td width="45mm" align="center">Dhoifur Rohman</td>
-              <td class="spasi-td"></td>
+
               <td width="45mm" align="center">Abu Rohman</td>
-              <td class="spasi-td"></td>
+
               <td width="45mm" style="text-align: center">
-                Muhammad Fattah Hirarki al-Jadid
+                Muhammad Fattah bin Abi Bakar
               </td>
             </tr>
           </table>
