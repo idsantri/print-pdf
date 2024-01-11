@@ -188,6 +188,10 @@ h2 {
 .ttd-kolom {
   margin: auto;
 }
+.col-ttd {
+  width: 45mm;
+  text-align: center;
+}
 footer p {
   margin: auto;
   margin-top: 2px;
