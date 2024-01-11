@@ -102,7 +102,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* STYLE REGISTRASI */
+/* STYLE SURAT IZIN BOYONG */
 /* start reset */
 html,
 body {
@@ -125,7 +125,9 @@ body {
   /* border: 1px solid black; */
   line-height: 14px;
 }
-
+table {
+  /* border-spacing: 0; */
+}
 .teks-kop {
   padding: 0;
   font-weight: bold;
@@ -135,9 +137,13 @@ body {
   padding: 0;
   font-size: 13px;
 }
-/* PENDAFTARAN */
+
+/* SURAT IZIN BERHENTI */
 .form-container {
   margin: 0 auto;
+}
+.pembuka-sboyong p {
+  margin: 8px 0;
 }
 .h3 {
   margin: auto;
@@ -163,16 +169,11 @@ main table tr td {
   font-weight: 400;
   font-style: italic;
 }
-.col-label2 {
-  width: 17mm;
-  font-style: italic;
-}
+
 .spasi-td {
   width: 10mm;
 }
-.spasi-td2 {
-  width: 2mm;
-}
+
 h2 {
   /* font-size: 18px; */
   margin: 3px auto;
@@ -181,7 +182,16 @@ h2 {
 }
 .tgl-diterima {
   text-align: center;
-  margin: 12px 0;
+  margin: 11px 0 12px 0;
+}
+.alasan-berhenti p {
+  margin-bottom: 0;
+}
+.ttd-pengurus {
+  margin: auto;
+}
+.ttd-pengurus p {
+  text-align: center;
 }
 .ttd-kolom {
   margin: auto;
@@ -190,17 +200,18 @@ h2 {
   width: 45mm;
   text-align: center;
 }
-footer p {
-  margin: auto;
-  margin-top: 2px;
-  padding: 0;
-  line-height: 15px;
+.border-top-ttd {
+  border-top: 1px dashed black;
+  height: 2mm;
 }
-/* .ortu-id {
-  float: left;
-} */
-.table-h3 {
+footer {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 11px;
+}
+footer p {
   margin: 0;
-  padding: 0;
-  margin-top: 8px;
+}
+footer table tr td {
+  line-height: 11px;
 }
