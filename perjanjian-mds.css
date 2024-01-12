@@ -159,8 +159,8 @@ body {
 .form-container {
   margin: 0 auto;
 }
-.pembuka-sboyong p {
-  margin: 8px 0;
+.form-section {
+  margin-top: 10mm;
 }
 .h3 {
   margin: auto;
