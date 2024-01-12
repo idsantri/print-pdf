@@ -206,13 +206,17 @@ h2 {
   height: 2mm;
 }
 footer {
-  margin-top: 10px;
+  padding: 0;
+  margin: 230px 0 20px 0;
   font-size: 12px;
   line-height: 11px;
 }
 footer p {
   margin: 0;
 }
-footer table tr td {
-  line-height: 11px;
+footer .tembusan table tr td {
+  line-height: 12px;
+}
+body > main > footer > div.keterangan > div > p:nth-child(2) {
+  line-height: 13.5px;
 }
