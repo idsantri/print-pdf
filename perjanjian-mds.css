@@ -114,28 +114,45 @@ body {
   margin-top: 12mm;
   padding: 0;
 }
-.logo {
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo,
+.kop {
   float: left;
-  overflow: hidden;
 }
+
 .logo img {
-  width: 90px;
+  height: 80px;
 }
-.kop tr td {
-  /* border: 1px solid black; */
-  line-height: 14px;
-}
-table {
-  /* border-spacing: 0; */
-}
+
 .teks-kop {
+  margin: 0;
   padding: 0;
-  font-weight: bold;
-  font-size: 18px;
 }
-.jalan-kop {
-  padding: 0;
-  font-size: 13px;
+
+.kop-1 {
+  line-height: 20px;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+.kop-2 {
+  line-height: 18px;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.kop-3,
+.kop-4 {
+  line-height: 11px;
+  font-size: 9pt;
+  font-weight: 300;
 }
 
 /* SURAT IZIN BERHENTI */
