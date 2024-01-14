@@ -153,21 +153,21 @@ header {
 }
 .h3 {
   margin: auto;
-  margin-top: 8px;
-  padding-left: 1px;
+  margin-top: 6pt;
+  padding-left: 0.75pt;
   font-size: 11pt;
   font-weight: 500;
 }
 .text-center {
   margin: auto;
-  margin-bottom: 12px;
+  margin-bottom: 9pt;
   text-align: center;
 }
 main table tr td {
   /* border: 1px solid black; */
   padding: 0;
   margin: 0;
-  line-height: 15px;
+  line-height: 12.25pt;
   vertical-align: top;
 }
 .col-label {
@@ -180,13 +180,13 @@ main table tr td {
 }
 h2 {
   /* font-size: 18px; */
-  margin: 3px auto;
+  margin: 2.25pt auto;
   margin-bottom: 0;
   text-align: center;
 }
 .tgl-diterima {
   text-align: center;
-  margin: 11px 0 12px 0;
+  margin: 8.25pt 0 9pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
