@@ -29,7 +29,7 @@
     // Load HTML yang ingin dijadikan PDF
     // $html = file_get_contents("registrasi-coba.html");
     
-    $html = file_get_contents("perjanjian-mds.html");
+    $html = file_get_contents("perjanjian-mds2.html");
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);
