@@ -91,6 +91,7 @@
 }
 
 body {
+  font-size: 11pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -98,64 +99,51 @@ body {
   font-weight: 400;
 }
 
-@page {
-  margin: 0;
-  padding: 0;
-}
-/* STYLE SURAT IZIN BOYONG */
-/* start reset */
-html,
-body {
-  font-size: 11pt;
-}
 /* config all */
 @page {
   margin: 10mm 25mm;
   margin-top: 12mm;
   padding: 0;
 }
-
+/* start reset */
+header {
+  height: 2.5cm;
+}
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .logo,
 .kop {
   float: left;
 }
-
 .logo img {
-  height: 80px;
+  height: 2.25cm;
 }
-
 .teks-kop {
   margin: 0;
   padding: 0;
 }
-
 .kop-1 {
-  line-height: 20px;
+  line-height: 16pt;
   font-size: 16pt;
   font-weight: 400;
 }
-
 .kop-2 {
-  line-height: 18px;
+  line-height: 12pt;
   font-size: 16pt;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-bottom: 5pt;
 }
-
 .kop-3,
 .kop-4 {
-  line-height: 11px;
+  line-height: 9pt;
   font-size: 9pt;
   font-weight: 300;
 }
 
-/* SURAT IZIN BERHENTI */
+/* SURAT PERJANJIAN TIB-KAM */
 .form-container {
   margin: 0 auto;
 }
@@ -164,21 +152,21 @@ body {
 }
 .h3 {
   margin: auto;
-  margin-top: 8px;
-  padding-left: 1px;
+  margin-top: 6pt;
+  padding-left: 0.25pt;
   font-size: 11pt;
   font-weight: 500;
 }
 .text-center {
   margin: auto;
-  margin-bottom: 12px;
+  margin-bottom: 9pt;
   text-align: center;
 }
 main table tr td {
   /* border: 1px solid black; */
   padding: 0;
   margin: 0;
-  line-height: 15px;
+  line-height: 11.25pt;
   vertical-align: top;
 }
 .col-label {
@@ -186,20 +174,21 @@ main table tr td {
   font-weight: 400;
   font-style: italic;
 }
-
 .spasi-td {
   width: 10mm;
 }
-
+.spasi-td {
+  width: 10mm;
+}
 h2 {
   /* font-size: 18px; */
-  margin: 3px auto;
+  margin: 2.25pt auto;
   margin-bottom: 0;
   text-align: center;
 }
 .tgl-diterima {
   text-align: center;
-  margin: 11px 0 12px 0;
+  margin: 8.25pt 0 9pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
@@ -219,21 +208,21 @@ h2 {
   text-align: center;
 }
 .border-top-ttd {
-  border-top: 1px dashed black;
+  border-top: 0.75pt dashed black;
   height: 2mm;
 }
 footer {
   padding: 0;
-  margin: 230px 0 0 0;
-  font-size: 12px;
-  line-height: 11px;
+  margin: 173pt 0 0 0;
+  font-size: 9pt;
+  line-height: 8.25pt;
 }
 footer p {
   margin: 0;
 }
 footer .tembusan table tr td {
-  line-height: 12px;
+  line-height: 9pt;
 }
 body > main > footer > div.keterangan > div > p:nth-child(2) {
-  line-height: 13.5px;
+  line-height: 10.125pt;
 }
