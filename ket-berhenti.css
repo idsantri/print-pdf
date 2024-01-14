@@ -182,15 +182,12 @@ main table tr td {
   font-weight: 400;
   font-style: italic;
 }
-
 .spasi-td {
   width: 10mm;
 }
-
 h2 {
-  /* font-size: 18px; */
-  margin: 2.25pt auto;
-  margin-bottom: 0;
+  margin: 10pt auto;
+  margin-bottom: 7.5pt;
   text-align: center;
 }
 .tgl-diterima {
