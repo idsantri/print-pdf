@@ -161,10 +161,10 @@ header {
   text-align: center;
 }
 main table tr td {
-  border: 1px solid black;
+  /* border: 0.75pt solid black; */
   padding: 0;
   margin: 0;
-  line-height: 11.25pt;
+  line-height: 11pt;
   vertical-align: top;
 }
 .col-label {
@@ -186,22 +186,41 @@ main table tr td {
   width: 2mm;
 }
 h2 {
-  /* font-size: 18px; */
-  margin: 2.25pt auto;
+  margin: 10pt auto;
   margin-bottom: 7.5pt;
   text-align: center;
 }
-
+.info-saudara {
+  font-family: ub;
+  font-size: medium;
+  font-size: 10pt;
+  margin: auto;
+  margin: 0;
+}
 .garis {
   border-top: 0.675pt solid black;
-  margin: 6pt 0 0 0;
+  margin: 25pt 0 5pt 0;
 }
 .tgl-diterima {
   text-align: center;
-  margin: 12px 0;
+  margin: 9pt 0;
 }
 .table-h3 {
   margin: 0;
   padding: 0;
   margin-top: 6pt;
+}
+.ket-data {
+  margin: auto;
+  margin-top: 6pt;
+  margin-bottom: 2pt;
+  padding-left: 0.25pt;
+  font-size: 10pt;
+}
+ul {
+  font-size: 9pt;
+  padding: 0;
+  margin: 0;
+  line-height: 9pt;
+  margin-left: 9pt;
 }
