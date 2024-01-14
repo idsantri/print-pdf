@@ -179,8 +179,7 @@ main table tr td {
   width: 10mm;
 }
 h2 {
-  /* font-size: 18px; */
-  margin: 2.25pt auto;
+  margin: 10pt auto;
   margin-bottom: 0;
   text-align: center;
 }

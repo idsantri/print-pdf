@@ -133,20 +133,17 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .kop-1 {
   line-height: 20px;
   font-size: 16pt;
   font-weight: 400;
 }
-
 .kop-2 {
   line-height: 18px;
   font-size: 16pt;
   font-weight: 500;
   margin-bottom: 5px;
 }
-
 .kop-3,
 .kop-4 {
   line-height: 11px;
@@ -193,8 +190,7 @@ main table tr td {
   width: 2mm;
 }
 h2 {
-  /* font-size: 18px; */
-  margin: 3px auto;
+  margin: 10pt auto;
   margin-bottom: 0;
   text-align: center;
 }

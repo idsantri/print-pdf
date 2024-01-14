@@ -187,7 +187,7 @@ main table tr td {
 }
 h2 {
   margin: 10pt auto;
-  margin-bottom: 7.5pt;
+  margin-bottom: 0;
   text-align: center;
 }
 .tgl-diterima {
