@@ -91,6 +91,7 @@
 }
 
 body {
+  font-size: 11pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -98,58 +99,47 @@ body {
   font-weight: 400;
 }
 
-@page {
-  margin: 0;
-  padding: 0;
-}
-/* STYLE SURAT IZIN BOYONG */
-/* start reset */
-html,
-body {
-  font-size: 11pt;
-}
 /* config all */
 @page {
   margin: 10mm 25mm;
   margin-top: 12mm;
   padding: 0;
 }
+/* STYLE SURAT IZIN BOYONG */
+/* start reset */
+header {
+  height: 2.5cm;
+}
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .logo,
 .kop {
   float: left;
 }
-
 .logo img {
-  height: 80px;
+  height: 2.25cm;
 }
-
 .teks-kop {
   margin: 0;
   padding: 0;
 }
-
 .kop-1 {
-  line-height: 20px;
+  line-height: 16pt;
   font-size: 16pt;
   font-weight: 400;
 }
-
 .kop-2 {
-  line-height: 18px;
+  line-height: 12pt;
   font-size: 16pt;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-bottom: 5pt;
 }
-
 .kop-3,
 .kop-4 {
-  line-height: 11px;
+  line-height: 9pt;
   font-size: 9pt;
   font-weight: 300;
 }
