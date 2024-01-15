@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu-Light"), url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Ubuntu-LightItalic"),
+    url("fonts/Ubuntu-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu-Regular"),
+    url("fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu-Italic"), url("fonts/Ubuntu-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu-Medium"), url("fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Ubuntu-MediumItalic"),
+    url("fonts/Ubuntu-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu-Bold"), url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu-BoldItalic"),
+    url("fonts/Ubuntu-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("UbuntuMono-Regular"),
+    url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: local("UbuntuMono-Italic"),
+    url("fonts/UbuntuMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local("UbuntuMono-Bold"),
+    url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: local("UbuntuMono-BoldItalic"),
+    url("fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  font-size: 11pt;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+/* config all */
+@page {
+  margin: 10mm 25mm;
+  margin-top: 12mm;
+  padding: 0;
+}
+/* STYLE SURAT IZIN BOYONG */
+/* start reset */
+header {
+  height: 2.5cm;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.logo,
+.kop {
+  float: left;
+}
+.logo img {
+  height: 2.25cm;
+}
+.teks-kop {
+  margin: 0;
+  padding: 0;
+}
+.kop-1 {
+  line-height: 16pt;
+  font-size: 16pt;
+  font-weight: 400;
+}
+.kop-2 {
+  line-height: 12pt;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-bottom: 5pt;
+}
+.kop-3,
+.kop-4 {
+  line-height: 9pt;
+  font-size: 9pt;
+  font-weight: 300;
+}
+
+/* REKAM JEJAK RIWAYAT */
+.form-container {
+  margin: 0 auto;
+}
+.form-section {
+  margin-top: 10mm;
+}
+.h3 {
+  margin: auto;
+  margin-top: 6pt;
+  padding-left: 0.75pt;
+  font-size: 11pt;
+  font-weight: 500;
+}
+.sub-judul {
+  margin: 0;
+  margin-bottom: 8pt;
+  text-align: center;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.text-center {
+  margin: auto;
+  margin-bottom: 9pt;
+  text-align: center;
+}
+main table tr td {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  line-height: 11.25pt;
+  vertical-align: top;
+}
+.col-label {
+  width: 22mm;
+  font-weight: 400;
+  font-style: italic;
+}
+.col-label3 {
+  width: 7mm;
+  margin: auto;
+  text-align: center;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.foto-santri {
+  width: 30mm;
+}
+.spasi-td {
+  width: 10mm;
+}
+h2 {
+  margin: 10pt auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+.garis {
+  border-top: 0.5 dashed black;
+  margin: 12pt 0 11pt 0;
+}
