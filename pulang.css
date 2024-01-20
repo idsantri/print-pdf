@@ -152,12 +152,12 @@ hr {
   margin: 8pt 0;
 }
 
-/* REKAM JEJAK RIWAYAT */
+/* SURAT IZIN PULANG */
 .form-container {
   margin: 0 auto;
 }
-.form-section {
-  margin-top: 10mm;
+.pembuka-sboyong p {
+  margin: 6pt 0;
 }
 .h3 {
   margin: auto;
@@ -165,13 +165,6 @@ hr {
   padding-left: 0.75pt;
   font-size: 11pt;
   font-weight: 500;
-}
-.sub-judul {
-  margin: 0;
-  margin-bottom: 8pt;
-  text-align: center;
-  font-size: 12pt;
-  font-weight: bold;
 }
 .text-center {
   margin: auto;
@@ -186,25 +179,9 @@ main table tr td {
   vertical-align: top;
 }
 .col-label {
-  width: 22mm;
+  width: 40mm;
   font-weight: 400;
   font-style: italic;
-}
-.col-label3 {
-  width: 7mm;
-  margin: auto;
-  text-align: center;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.foto-santri {
-  margin-left: 129mm;
-}
-.foto-santri img {
-  width: 30mm;
 }
 .spasi-td {
   width: 10mm;
@@ -214,7 +191,46 @@ h2 {
   margin-bottom: 0;
   text-align: center;
 }
-.garis {
-  border-top: 0.5 dashed black;
-  margin: 12pt 0 11pt 0;
+.tgl-diterima {
+  text-align: center;
+  margin: 8.25pt 0 9pt 0;
+}
+.alasan-berhenti p {
+  margin-bottom: 0;
+}
+.ttd-pengurus {
+  margin: auto;
+}
+.ttd-pengurus p {
+  text-align: center;
+}
+.ttd-kolom {
+  margin: auto;
+}
+.col-ttd {
+  margin: auto;
+  width: 65mm;
+  text-align: center;
+}
+.border-top-ttd {
+  border-top: 1pt dashed black;
+  height: 2mm;
+}
+footer {
+  padding: 0;
+  margin: 173pt 0 0 0;
+  font-size: 9pt;
+  line-height: 8.25pt;
+}
+footer p {
+  margin: 0;
+}
+footer .tembusan table tr td {
+  line-height: 9pt;
+}
+.catatan {
+  margin-left: -0.5pt;
+}
+body > main > footer > div.catatan > div > p:nth-child(2) {
+  line-height: 10.125pt;
 }
