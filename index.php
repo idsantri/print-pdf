@@ -29,11 +29,11 @@
     // Load HTML yang ingin dijadikan PDF
     // $html = file_get_contents("registrasi-coba.html");
     
-    $html = file_get_contents("liburan.html");
+    $html = file_get_contents("boyong.html");
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);
-    $dompdf->setPaper('A5', 'portrait');
+    $dompdf->setPaper('A4', 'portrait');
 
     // Render PDF
     $dompdf->render();
