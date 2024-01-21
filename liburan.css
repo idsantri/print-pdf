@@ -102,7 +102,7 @@ body {
 
 /* config all */
 @page {
-  margin: 8mm 10mm;
+  margin: 8mm 12mm;
   /* margin-top: 8mm; */
   padding: 0;
 }
@@ -157,6 +157,7 @@ hr {
 }
 .pembuka-sboyong p {
   margin: 6pt 0;
+  line-height: 10pt;
 }
 .h3 {
   margin: auto;
@@ -171,13 +172,13 @@ hr {
   text-align: center;
 }
 .table-nama {
-  margin-left: 25;
+  margin-left: 25pt;
 }
 main table tr td {
   border: 1px solid black;
   padding: 0;
   margin: 0;
-  line-height: 10.5pt;
+  line-height: 10pt;
   vertical-align: top;
 }
 .col-label {
@@ -195,7 +196,7 @@ h2 {
 }
 .tgl-surat {
   text-align: center;
-  margin: 0 0 8pt 0;
+  margin: 8pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
@@ -210,9 +211,13 @@ h2 {
 .ttd-kolom {
   margin: auto;
 }
+.ttd-kolom .kamar {
+  font-size: 25pt;
+  text-align: center;
+}
 .col-ttd {
   margin: auto;
-  width: 40mm;
+  width: 60mm;
   text-align: center;
 }
 .border-top-ttd {
@@ -220,7 +225,7 @@ h2 {
 }
 footer {
   padding: 0;
-  margin: 10pt 0 0 0;
+  margin: 8pt 0 0 0;
   font-size: 8.5pt;
   line-height: 8pt;
 }
