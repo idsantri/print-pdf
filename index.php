@@ -29,7 +29,7 @@
     // Load HTML yang ingin dijadikan PDF
     // $html = file_get_contents("registrasi-coba.html");
     
-    $html = file_get_contents("registrasi.html");
+    $html = file_get_contents("rekam-jejak.html");
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);

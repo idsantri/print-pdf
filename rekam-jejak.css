@@ -183,6 +183,12 @@ main table tr td {
   line-height: 11.25pt;
   vertical-align: top;
 }
+.foto-santri {
+  float: right;
+}
+.foto-santri img {
+  width: 30mm;
+}
 .col-label {
   width: 22mm;
   font-weight: 400;
@@ -198,12 +204,7 @@ main table tr td {
   clear: both;
   display: table;
 }
-.foto-santri {
-  margin-left: 129mm;
-}
-.foto-santri img {
-  width: 30mm;
-}
+
 .spasi-td {
   width: 10mm;
 }
@@ -213,6 +214,6 @@ h2 {
   text-align: center;
 }
 .garis {
-  border-top: 0.5 dashed black;
-  margin: 12pt 0 11pt 0;
+  border-top: 0.8 dashed black;
+  margin: 20pt 0 11pt 0;
 }
