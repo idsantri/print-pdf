@@ -103,7 +103,7 @@ body {
 /* config all */
 @page {
   margin: 8mm 12mm;
-  /* margin-top: 8mm; */
+  margin-bottom: 11mm;
   padding: 0;
 }
 header {
@@ -143,7 +143,7 @@ header {
 }
 .kop-3,
 .kop-4 {
-  line-height: 9pt;
+  line-height: 8pt;
   font-size: 8.5pt;
   font-weight: 300;
 }
@@ -155,9 +155,9 @@ hr {
 .form-container {
   margin: 0 auto;
 }
-.pembuka-sboyong p {
+.pembuka-surat p {
   margin: 6pt 0;
-  line-height: 10pt;
+  line-height: 10.5pt;
 }
 .h3 {
   margin: auto;
@@ -175,7 +175,7 @@ hr {
   margin-left: 25pt;
 }
 main table tr td {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0;
   margin: 0;
   line-height: 10pt;
@@ -196,7 +196,7 @@ h2 {
 }
 .tgl-surat {
   text-align: center;
-  margin: 8pt 0;
+  margin: 6pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
@@ -211,9 +211,13 @@ h2 {
 .ttd-kolom {
   margin: auto;
 }
+.ttd-kolom .barcode {
+  vertical-align: bottom;
+}
 .ttd-kolom .kamar {
   font-size: 25pt;
   text-align: center;
+  vertical-align: middle;
 }
 .col-ttd {
   margin: auto;
@@ -228,12 +232,16 @@ footer {
   margin: 8pt 0 0 0;
   font-size: 8.5pt;
   line-height: 8pt;
+  border-top: 0.7pt solid black;
 }
 footer p {
-  margin: 0;
+  margin-bottom: 1pt;
 }
 .catatan {
   margin-left: -0.5pt;
+}
+.catatan ol {
+  margin-top: 2pt;
 }
 body > main > footer > div.catatan > div > p:nth-child(2) {
   line-height: 10.5pt;
