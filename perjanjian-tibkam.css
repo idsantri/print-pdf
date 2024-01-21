@@ -89,7 +89,6 @@
   src: local("UbuntuMono-BoldItalic"),
     url("fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
 }
-
 body {
   font-size: 11pt;
   margin: 0;
@@ -105,7 +104,6 @@ body {
   margin-top: 12mm;
   padding: 0;
 }
-/* start reset */
 header {
   height: 2.5cm;
 }
@@ -114,12 +112,17 @@ header {
   clear: both;
   display: table;
 }
+
 .logo,
 .kop {
   float: left;
 }
 .logo img {
   height: 2.25cm;
+}
+.kop {
+  margin-top: 2pt;
+  margin-left: 10pt;
 }
 .teks-kop {
   margin: 0;
@@ -134,13 +137,16 @@ header {
   line-height: 12pt;
   font-size: 16pt;
   font-weight: 500;
-  margin-bottom: 5pt;
+  margin-bottom: 4pt;
 }
 .kop-3,
 .kop-4 {
   line-height: 9pt;
   font-size: 9pt;
   font-weight: 300;
+}
+hr {
+  margin: 8pt 0;
 }
 
 /* SURAT PERJANJIAN TIB-KAM */
