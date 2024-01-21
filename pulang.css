@@ -91,7 +91,7 @@
 }
 
 body {
-  font-size: 11pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -101,14 +101,12 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 12mm;
+  margin: 8mm 10mm;
+  /* margin-top: 8mm; */
   padding: 0;
 }
-/* STYLE SURAT IZIN BOYONG */
-/* start reset */
 header {
-  height: 2.5cm;
+  height: 2cm;
 }
 .clearfix::after {
   content: "";
@@ -121,10 +119,9 @@ header {
   float: left;
 }
 .logo img {
-  height: 2.25cm;
+  height: 2cm;
 }
 .kop {
-  margin-top: 2pt;
   margin-left: 10pt;
 }
 .teks-kop {
@@ -132,20 +129,20 @@ header {
   padding: 0;
 }
 .kop-1 {
-  line-height: 16pt;
-  font-size: 16pt;
+  line-height: 12pt;
+  font-size: 15pt;
   font-weight: 400;
 }
 .kop-2 {
   line-height: 12pt;
-  font-size: 16pt;
+  font-size: 15pt;
   font-weight: 500;
-  margin-bottom: 4pt;
+  margin-bottom: 2.5pt;
 }
 .kop-3,
 .kop-4 {
   line-height: 9pt;
-  font-size: 9pt;
+  font-size: 8.5pt;
   font-weight: 300;
 }
 hr {
@@ -175,11 +172,11 @@ main table tr td {
   /* border: 1px solid black; */
   padding: 0;
   margin: 0;
-  line-height: 11.25pt;
+  line-height: 10.5pt;
   vertical-align: top;
 }
 .col-label {
-  width: 40mm;
+  width: 20mm;
   font-weight: 400;
   font-style: italic;
 }
@@ -191,12 +188,13 @@ h2 {
   margin-bottom: 0;
   text-align: center;
 }
-.tgl-diterima {
+.tgl-surat {
   text-align: center;
-  margin: 8.25pt 0 9pt 0;
+  margin: 0 0 8pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
+  margin-top: 5pt;
 }
 .ttd-pengurus {
   margin: auto;
@@ -209,28 +207,26 @@ h2 {
 }
 .col-ttd {
   margin: auto;
-  width: 65mm;
+  width: 40mm;
   text-align: center;
 }
 .border-top-ttd {
-  border-top: 1pt dashed black;
+  margin: 0 2pt;
+  border-top: 0.7pt dashed black;
   height: 2mm;
 }
 footer {
   padding: 0;
-  margin: 173pt 0 0 0;
-  font-size: 9pt;
-  line-height: 8.25pt;
+  margin: 10pt 0 0 0;
+  font-size: 8.5pt;
+  line-height: 8pt;
 }
 footer p {
   margin: 0;
-}
-footer .tembusan table tr td {
-  line-height: 9pt;
 }
 .catatan {
   margin-left: -0.5pt;
 }
 body > main > footer > div.catatan > div > p:nth-child(2) {
-  line-height: 10.125pt;
+  line-height: 10.5pt;
 }

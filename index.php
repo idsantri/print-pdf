@@ -33,7 +33,7 @@
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);
-    $dompdf->setPaper('A4', 'portrait');
+    $dompdf->setPaper('A5', 'portrait');
 
     // Render PDF
     $dompdf->render();
