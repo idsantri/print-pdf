@@ -29,7 +29,7 @@
     // Load HTML yang ingin dijadikan PDF
     // $html = file_get_contents("registrasi-coba.html");
     
-    $html = file_get_contents("koreksi-data.html");
+    $html = file_get_contents("perjanjian-mds.html");
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);
@@ -37,9 +37,6 @@
 
     // Render PDF
     $dompdf->render();
-
-
-
 
     // Tampilkan PDF di browser
     $pdfContent = $dompdf->output();
