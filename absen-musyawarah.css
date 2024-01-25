@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu-Light"), url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Ubuntu-LightItalic"),
+    url("fonts/Ubuntu-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu-Regular"),
+    url("fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu-Italic"), url("fonts/Ubuntu-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu-Medium"), url("fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Ubuntu-MediumItalic"),
+    url("fonts/Ubuntu-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu-Bold"), url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu-BoldItalic"),
+    url("fonts/Ubuntu-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("UbuntuMono-Regular"),
+    url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: local("UbuntuMono-Italic"),
+    url("fonts/UbuntuMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local("UbuntuMono-Bold"),
+    url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: local("UbuntuMono-BoldItalic"),
+    url("fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+/* config all */
+@page {
+  margin: 10mm 18mm;
+  margin-top: 12mm;
+  padding: 0;
+}
+header {
+  height: 2.5cm;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  height: 2.25cm;
+}
+.kop {
+  margin-top: 2pt;
+  margin-left: 60pt;
+}
+.teks-kop {
+  margin: 0;
+  padding: 0;
+}
+.kop-1 {
+  line-height: 16pt;
+  font-size: 16pt;
+  font-weight: 400;
+}
+.kop-2 {
+  line-height: 12pt;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-bottom: 4pt;
+}
+.kop-3,
+.kop-4 {
+  line-height: 9pt;
+  font-size: 9pt;
+  font-weight: 300;
+}
+hr {
+  margin: 8pt 0;
+}
+header table tr td {
+  line-height: 10pt;
+}
+.kop-pesantren {
+  float: left;
+}
+.waktu {
+  font-family: serif;
+  float: right;
+  margin-top: 30pt;
+}
+/* ABSEN MUSYAWARAH */
+.form-container {
+  margin: 0 auto;
+}
+
+main table tr td {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  line-height: 12.25pt;
+  vertical-align: top;
+}
+.italic {
+  font-style: italic;
+}
+.col-bulan {
+  width: 87mm;
+}
+.col-tanggal {
+  font-size: 8pt;
+  width: 5mm;
+  text-align: center;
+  vertical-align: top;
+}
+.col-idsantri {
+  width: 10mm;
+  text-align: center;
+}
+.col-nama {
+  padding-left: 2mm;
+  width: 58mm;
+}
+.col-no {
+  width: 6mm;
+  text-align: center;
+}
+.col-domisili {
+  width: 10mm;
+  text-align: center;
+}
+.col-keterangan {
+  width: 5mm;
+  text-align: center;
+}
+.spasi {
+  width: 1mm;
+  border: none;
+}
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+.noborder {
+  border: 0;
+  font-weight: bold;
+  font-size: 11pt;
+}
+.table2 table tr td {
+  height: 5mm;
+}
