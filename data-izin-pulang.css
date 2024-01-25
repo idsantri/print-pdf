@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu-Light"), url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Ubuntu-LightItalic"),
+    url("fonts/Ubuntu-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu-Regular"),
+    url("fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu-Italic"), url("fonts/Ubuntu-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu-Medium"), url("fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Ubuntu-MediumItalic"),
+    url("fonts/Ubuntu-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu-Bold"), url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu-BoldItalic"),
+    url("fonts/Ubuntu-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("UbuntuMono-Regular"),
+    url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: local("UbuntuMono-Italic"),
+    url("fonts/UbuntuMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local("UbuntuMono-Bold"),
+    url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: local("UbuntuMono-BoldItalic"),
+    url("fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+}
+
+body {
+  font-size: 10.5pt;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+/* config all */
+@page {
+  margin: 10mm 25mm;
+  margin-top: 12mm;
+  padding: 0;
+}
+header {
+  height: 2.5cm;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo,
+.kop {
+  float: left;
+}
+.logo img {
+  height: 2.25cm;
+}
+.kop {
+  margin-top: 2pt;
+  margin-left: 10pt;
+}
+.teks-kop {
+  margin: 0;
+  padding: 0;
+}
+.kop-1 {
+  line-height: 16pt;
+  font-size: 16pt;
+  font-weight: 400;
+}
+.kop-2 {
+  line-height: 12pt;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-bottom: 4pt;
+}
+.kop-3,
+.kop-4 {
+  line-height: 9pt;
+  font-size: 9pt;
+  font-weight: 300;
+}
+hr {
+  margin: 8pt 0;
+}
+
+/* SURAT IZIN BERHENTI */
+.form-container {
+  margin: 0 auto;
+}
+main table tr td {
+  /* border: 1px solid black; */
+  padding: 0;
+  margin: 0;
+  line-height: 12.25pt;
+  vertical-align: top;
+}
+.tgl-indisipliner {
+  margin-bottom: 10pt;
+}
+.tgl-table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12pt;
+}
+.garis {
+  border-top: 1pt solid black;
+  margin-top: 4pt;
+  /* margin-bottom: 8pt; */
+}
+h2 {
+  font-size: 15pt;
+  margin-top: 14pt;
+  margin-bottom: 0;
+  text-align: center;
+}
+.awal-table-santri {
+  width: 100%;
+  margin-top: 8pt;
+  margin-bottom: 5pt;
+}
+.kedua-table-santri {
+  width: 100%;
+  margin-top: 18pt;
+  margin-bottom: 5pt;
+}
+.italic {
+  font-style: italic;
+}
+.col-no {
+  width: 10mm;
+}
+.col-idsantri {
+  width: 18mm;
+}
+.col-nama {
+  width: 62mm;
+}
+.col-domisili {
+  width: 18mm;
+}
+.col-kelas {
+  width: 15mm;
+}
+.col-durasi {
+  width: 16mm;
+}
+.col-keperluan {
+  width: 48mm;
+}
+.col-kembali-tgl {
+  width: 25mm;
+}
+.col-telat {
+  width: 15mm;
+}
+.col-kembali {
+  width: 20mm;
+}
+.garis-tablesantri {
+  border-top: 0.7pt dashed rgb(94, 94, 94);
+  margin: 1pt 0;
+}
