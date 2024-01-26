@@ -91,7 +91,7 @@
 }
 
 body {
-  font-size: 11pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -101,8 +101,10 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 12mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
   padding: 0;
 }
 header {
@@ -149,7 +151,6 @@ header {
 hr {
   margin: 8pt 0;
 }
-
 /* PENDAFTARAN */
 .form-container {
   margin: 0 auto;
@@ -158,7 +159,7 @@ hr {
   margin: auto;
   margin-top: 8px;
   padding-left: 1px;
-  font-size: 11pt;
+  font-size: 10pt;
   font-weight: 500;
 }
 .text-center {
@@ -173,7 +174,7 @@ main table tr td {
   line-height: 15px;
   vertical-align: top;
 }
-.col-label {
+.col-label1 {
   width: 30mm;
   font-weight: 400;
   font-style: italic;
@@ -189,13 +190,15 @@ main table tr td {
   width: 2mm;
 }
 h2 {
+  font-size: 13pt;
   margin: 10pt auto;
   margin-bottom: 0;
   text-align: center;
 }
 .tgl-diterima {
   text-align: center;
-  margin: 12px 0;
+  margin-top: 15pt;
+  margin-bottom: 12pt;
 }
 .ttd-kolom {
   margin: auto;
@@ -206,9 +209,9 @@ h2 {
 }
 footer p {
   margin: auto;
-  margin-top: 2px;
+  margin-top: 4pt;
   padding: 0;
-  line-height: 15px;
+  line-height: 11pt;
 }
 /* .ortu-id {
   float: left;
@@ -216,5 +219,5 @@ footer p {
 .table-h3 {
   margin: 0;
   padding: 0;
-  margin-top: 8px;
+  margin-top: 6pt;
 }
