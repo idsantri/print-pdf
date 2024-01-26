@@ -101,8 +101,10 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 10mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
   padding: 0;
 }
 header {
@@ -181,13 +183,13 @@ h2 {
 }
 .awal-table-santri {
   width: 100%;
-  margin-top: 8pt;
-  margin-bottom: 5pt;
+  margin-top: 4pt;
+  margin-bottom: 4pt;
 }
 .kedua-table-santri {
   width: 100%;
-  margin-top: 18pt;
-  margin-bottom: 5pt;
+  margin-top: 10pt;
+  margin-bottom: 2pt;
 }
 .italic {
   font-style: italic;
