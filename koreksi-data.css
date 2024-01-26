@@ -183,7 +183,7 @@
 }
 
 body {
-  font-size: 11pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -193,8 +193,10 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 12mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
   padding: 0;
 }
 header {
@@ -242,7 +244,7 @@ hr {
   margin: 8pt 0;
 }
 
-/* SURAT IZIN BERHENTI */
+/* KOREKSI DATA */
 .form-container {
   margin: 0 auto;
 }
@@ -250,8 +252,7 @@ hr {
   margin: auto;
   margin-top: 6pt;
   padding-left: 0.25pt;
-  font-size: 11pt;
-  /* font-weight: 500; */
+  font-size: 10pt;
 }
 .text-center {
   margin: auto;
@@ -284,83 +285,7 @@ main table tr td {
   width: 2mm;
 }
 h2 {
-  margin: 10pt auto;
-  margin-bottom: 7.5pt;
-  text-align: center;
-}
-.info-saudara {
-  font-size: 10pt;
-}
-.garis {
-  border-top: 0.675pt solid black;
-  margin: 25pt 0 5pt 0;
-}
-.tgl-diterima {
-  text-align: center;
-  margin: 9pt 0;
-}
-.table-h3 {
-  margin: 0;
-  padding: 0;
-  margin-top: 6pt;
-}
-.ket-data {
-  margin: auto;
-  margin-top: 6pt;
-  margin-bottom: 2pt;
-  padding-left: 0.25pt;
-  font-size: 10pt;
-}
-ul {
-  font-size: 9pt;
-  padding: 0;
-  margin: 0;
-  line-height: 9pt;
-  margin-left: 9pt;
-}
-
-/* SURAT IZIN BERHENTI */
-.form-container {
-  margin: 0 auto;
-}
-.h3 {
-  margin: auto;
-  margin-top: 6pt;
-  padding-left: 0.25pt;
   font-size: 11pt;
-  /* font-weight: 500; */
-}
-.text-center {
-  margin: auto;
-  margin-bottom: 9pt;
-  text-align: center;
-}
-main table tr td {
-  /* border: 0.75pt solid black; */
-  padding: 0;
-  margin: 0;
-  line-height: 11pt;
-  vertical-align: top;
-}
-.col-label {
-  width: 30mm;
-  font-weight: 400;
-  font-style: italic;
-}
-.col-label2 {
-  width: 23mm;
-  font-style: italic;
-}
-.col-labelwali {
-  width: 72mm;
-}
-.spasi-td {
-  width: 10mm;
-}
-.spasi-td2 {
-  width: 2mm;
-}
-h2 {
   margin: 10pt auto;
   margin-bottom: 7.5pt;
   text-align: center;
@@ -370,7 +295,7 @@ h2 {
 }
 .garis {
   border-top: 0.675pt solid black;
-  margin: 15pt 0 3pt 0;
+  margin: 30pt 0 3pt 0;
 }
 .tgl-diterima {
   text-align: center;
