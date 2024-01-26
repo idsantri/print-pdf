@@ -295,7 +295,7 @@ h2 {
 }
 .garis {
   border-top: 0.675pt solid black;
-  margin: 30pt 0 3pt 0;
+  margin: 36pt 0 3pt 0;
 }
 .tgl-diterima {
   text-align: center;
@@ -314,7 +314,7 @@ h2 {
   font-size: 10pt;
 }
 ul {
-  font-size: 9pt;
+  font-size: 8.5pt;
   padding: 0;
   margin: 0;
   line-height: 9pt;
