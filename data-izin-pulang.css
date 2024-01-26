@@ -91,7 +91,7 @@
 }
 
 body {
-  font-size: 10.5pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -175,7 +175,7 @@ main table tr td {
   /* margin-bottom: 8pt; */
 }
 h2 {
-  font-size: 15pt;
+  font-size: 13pt;
   margin-top: 14pt;
   margin-bottom: 3pt;
 }
