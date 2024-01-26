@@ -152,7 +152,7 @@ hr {
   margin: 8pt 0;
 }
 
-/* SURAT IZIN BERHENTI */
+/* SURAT BERHENTI */
 .form-container {
   margin: 0 auto;
 }
@@ -187,6 +187,7 @@ main table tr td {
   width: 10mm;
 }
 h2 {
+  font-size: 13pt;
   margin: 10pt auto;
   margin-bottom: 0;
   text-align: center;
