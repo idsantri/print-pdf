@@ -95,13 +95,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Times New Roman", serif;
   font-weight: 400;
 }
-
 /* config all */
 @page {
-  margin: 10mm 18mm;
+  margin: 10mm 17mm;
   margin-top: 12mm;
   padding: 0;
 }
@@ -148,15 +147,17 @@ hr {
   margin: 8pt 0;
 }
 header table tr td {
-  line-height: 10pt;
+  line-height: 13pt;
+  font-size: 12pt;
+  /* border: 1px solid black; */
 }
 .kop-pesantren {
+  font-family: "Ubuntu", sans-serif;
   float: left;
 }
 .waktu {
-  font-family: serif;
   float: right;
-  margin-top: 30pt;
+  margin-top: 21pt;
 }
 /* ABSEN MUSYAWARAH */
 .form-container {
@@ -207,13 +208,12 @@ main table tr td {
   border: none;
 }
 table {
-  font-family: sans-serif;
   border-collapse: collapse;
 }
 .noborder {
   border: 0;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 13pt;
 }
 .table2 table tr td {
   height: 5mm;
