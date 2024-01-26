@@ -91,7 +91,7 @@
 }
 
 body {
-  font-size: 10.5pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -179,7 +179,7 @@ main table tr td {
   /* margin-bottom: 8pt; */
 }
 h2 {
-  font-size: 15pt;
+  font-size: 13pt;
   margin-top: 14pt;
   margin-bottom: 0;
   text-align: center;
@@ -197,19 +197,19 @@ h2 {
   width: 9mm;
 }
 .col-idsantri {
-  width: 15mm;
+  width: 16mm;
 }
 .col-nama {
-  width: 40mm;
+  width: 48mm;
 }
 .col-domisili {
-  width: 16mm;
+  width: 18mm;
 }
 .col-kelas {
   width: 14mm;
 }
 .col-tanggal {
-  width: 43mm;
+  width: 33mm;
 }
 .col-kategori {
   width: 17mm;

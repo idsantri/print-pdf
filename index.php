@@ -29,11 +29,11 @@
     // Load HTML yang ingin dijadikan PDF
     // $html = file_get_contents("registrasi-coba.html");
     
-    $html = file_get_contents("data-izin-pulang.html");
+    $html = file_get_contents("indisipliner.html");
 
     // Load HTML ke DOMPDF
     $dompdf->loadHtml($html);
-    $dompdf->setPaper('A4', 'landscape');
+    $dompdf->setPaper('A4', 'potrait');
 
     // Render PDF
     $dompdf->render();
