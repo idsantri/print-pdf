@@ -91,7 +91,7 @@
 }
 
 body {
-  font-size: 11pt;
+  font-size: 10pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -101,8 +101,10 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 12mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
   padding: 0;
 }
 header {
@@ -161,7 +163,7 @@ hr {
   margin: auto;
   margin-top: 6pt;
   padding-left: 0.75pt;
-  font-size: 11pt;
+  font-size: 10pt;
   font-weight: 500;
 }
 .sub-judul {
@@ -209,6 +211,7 @@ main table tr td {
   width: 10mm;
 }
 h2 {
+  font-size: 13pt;
   margin: 10pt auto;
   margin-bottom: 0;
   text-align: center;
