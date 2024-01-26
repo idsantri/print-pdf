@@ -100,10 +100,10 @@ body {
 }
 /* config all */
 @page {
-  margin-top: 10mm;
-  margin-bottom: 15mm;
-  margin-left: 17mm;
-  margin-right: 17mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 18mm;
+  margin-right: 18mm;
   padding: 0;
 }
 
@@ -167,7 +167,7 @@ main table tr td {
   font-style: italic;
 }
 .col-bulan {
-  width: 88mm;
+  width: 85mm;
 }
 .col-tanggal {
   width: 5.1mm;
@@ -180,7 +180,7 @@ main table tr td {
 }
 .col-nama {
   padding-left: 2mm;
-  width: 58mm;
+  width: 55mm;
 }
 .col-no {
   width: 6mm;

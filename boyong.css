@@ -101,8 +101,10 @@ body {
 
 /* config all */
 @page {
-  margin: 10mm 25mm;
-  margin-top: 12mm;
+  margin-top: 8mm;
+  margin-bottom: 12mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
   padding: 0;
 }
 header {
