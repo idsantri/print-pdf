@@ -276,7 +276,10 @@ main table tr td {
   font-style: italic;
 }
 .col-labelwali {
-  width: 72mm;
+  /* width: 72mm; */
+}
+.col-kk {
+  width: 25mm;
 }
 .spasi-td {
   width: 10mm;
