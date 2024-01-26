@@ -91,22 +91,22 @@
 }
 
 body {
-  font-size: 9pt;
+  font-size: 11pt;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu", san-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 /* config all */
 @page {
-  margin-top: 10mm;
-  margin-bottom: 15mm;
-  margin-left: 17mm;
-  margin-right: 17mm;
+  margin: 10mm 17mm;
+  margin-top: 12mm;
   padding: 0;
 }
-
+header {
+  height: 2.5cm;
+}
 .clearfix::after {
   content: "";
   clear: both;
@@ -116,32 +116,39 @@ body {
   float: left;
 }
 .logo img {
-  height: 1.7cm;
+  height: 2.25cm;
 }
 .kop {
   margin-top: 2pt;
-  margin-left: 48pt;
+  margin-left: 60pt;
 }
 .teks-kop {
   margin: 0;
   padding: 0;
 }
 .kop-1 {
-  line-height: 12pt;
-  font-size: 12pt;
-  font-weight: 500;
+  line-height: 16pt;
+  font-size: 16pt;
+  font-weight: 400;
 }
 .kop-2 {
-  font-weight: 400;
   line-height: 12pt;
-  font-size: 12pt;
-  font-weight: 400;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-bottom: 4pt;
+}
+.kop-3,
+.kop-4 {
+  line-height: 9pt;
+  font-size: 9pt;
+  font-weight: 300;
 }
 hr {
-  margin: 4pt 0;
+  margin: 8pt 0;
 }
 header table tr td {
-  line-height: 10pt;
+  line-height: 11pt;
+  font-size: 12pt;
   /* border: 1px solid black; */
 }
 .kop-pesantren {
@@ -150,32 +157,33 @@ header table tr td {
 }
 .waktu {
   float: right;
-  margin-top: 4pt;
+  margin-top: 18pt;
 }
 /* ABSEN MUSYAWARAH */
 .form-container {
   margin: 0 auto;
 }
+
 main table tr td {
-  border: 0.5pt solid rgb(144, 144, 144);
+  border: 1px solid black;
   padding: 0;
   margin: 0;
-  line-height: 12pt;
+  line-height: 12.25pt;
   vertical-align: top;
 }
 .italic {
   font-style: italic;
 }
 .col-bulan {
-  width: 88mm;
+  width: 87mm;
 }
 .col-tanggal {
-  width: 5.1mm;
+  width: 6mm;
   text-align: center;
   vertical-align: top;
 }
 .col-idsantri {
-  width: 10mm;
+  width: 15mm;
   text-align: center;
 }
 .col-nama {
@@ -187,13 +195,10 @@ main table tr td {
   text-align: center;
 }
 .col-domisili {
-  width: 10mm;
+  width: 12mm;
   text-align: center;
 }
-.col-keterangan {
-  width: 5mm;
-  text-align: center;
-}
+
 .spasi {
   width: 1mm;
   border: none;
@@ -204,7 +209,7 @@ table {
 .noborder {
   border: 0;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 13pt;
 }
 .table2 table tr td {
   height: 5mm;
