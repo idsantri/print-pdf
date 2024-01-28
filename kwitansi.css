@@ -77,6 +77,7 @@
 @font-face {
   font-family: "Ubuntu Mono";
   font-style: normal;
+  font-style: normal;
   font-weight: 700;
   src: local("UbuntuMono-Bold"),
     url("fonts/UbuntuMono-Bold.ttf") format("truetype");
@@ -101,10 +102,7 @@ body {
 
 /* config all */
 @page {
-  margin-top: 8mm;
-  margin-bottom: 12mm;
-  margin-left: 25mm;
-  margin-right: 25mm;
+  margin: 8mm 20mm;
   padding: 0;
 }
 header {
@@ -121,9 +119,10 @@ header {
   float: left;
 }
 .logo img {
-  height: 2.32cm;
+  height: 1.8cm;
 }
 .kop {
+  margin-top: 2pt;
   margin-left: 10pt;
 }
 .teks-kop {
@@ -131,80 +130,67 @@ header {
   padding: 0;
 }
 .kop-1 {
-  line-height: 17pt;
-  font-size: 20pt;
+  line-height: 16pt;
+  font-size: 16pt;
   font-weight: 400;
 }
 .kop-2 {
-  line-height: 15pt;
-  font-size: 20pt;
+  line-height: 12pt;
+  font-size: 16pt;
   font-weight: 500;
   margin-bottom: 4pt;
 }
-.kop-3,
-.kop-4 {
-  line-height: 8pt;
-  font-size: 7.5pt;
+.kop-3 {
+  line-height: 6pt;
+  font-size: 7pt;
   font-weight: 300;
 }
 hr {
-  margin-bottom: 8mm;
+  margin: 5pt 0;
 }
-
-/* SURAT KET MDS*/
+/* SURAT IZIN PULANG */
 .form-container {
-  margin: 0;
+  margin: 0 auto;
 }
-.form-section {
-  margin-top: 8mm;
-}
-.heading-surat {
-}
-.bismillah {
-  text-align: center;
-  margin-top: 14pt;
-  margin-bottom: 6pt;
-}
-.heading-surat p {
-  margin: auto;
-}
-.pembuka-surat table p {
-  margin: 0;
-  margin-bottom: 8pt;
+.pembuka-sboyong p {
+  margin: 6pt 0;
 }
 main table tr td {
   /* border: 1px solid black; */
   padding: 0;
   margin: 0;
-  line-height: 12.25pt;
+  line-height: 10.5pt;
   vertical-align: top;
 }
-.italic {
-  font-style: italic;
-}
 .col-label {
-  width: 25mm;
+  width: 23mm;
   font-weight: 400;
   font-style: italic;
 }
 h2 {
-  font-size: 13pt;
-  margin-top: 0;
+  margin: 2pt auto;
   margin-bottom: 0;
-  text-align: center;
 }
-.tgl-diterima {
-  text-align: center;
-  margin: 8.25pt 0 9pt 0;
+.tgl-surat {
+  margin: 0 0 8pt 0;
 }
 .alasan-berhenti p {
   margin-bottom: 0;
+  margin-top: 5pt;
 }
-.ttd-pengurus,
-.ttd-kolom {
-  margin: auto;
+
+.border-bottom-ttd {
+  margin: 0 2pt;
+  border-bottom: 0.7pt dashed black;
+  height: 40pt;
+  width: 120pt;
 }
-.ttd-pengurus p {
-  margin: auto;
-  text-align: center;
+footer {
+  padding: 0;
+  margin: 20pt 0 0 0;
+  font-size: 9pt;
+  line-height: 10pt;
+}
+footer p {
+  margin: 0;
 }
