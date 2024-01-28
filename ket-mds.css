@@ -172,7 +172,7 @@ hr {
   text-align: center;
 }
 main table tr td {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0;
   margin: 0;
   line-height: 12.25pt;
