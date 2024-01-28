@@ -121,10 +121,9 @@ header {
   float: left;
 }
 .logo img {
-  height: 2.25cm;
+  height: 2.32cm;
 }
 .kop {
-  margin-top: 2pt;
   margin-left: 10pt;
 }
 .teks-kop {
@@ -132,24 +131,24 @@ header {
   padding: 0;
 }
 .kop-1 {
-  line-height: 16pt;
-  font-size: 16pt;
+  line-height: 17pt;
+  font-size: 20pt;
   font-weight: 400;
 }
 .kop-2 {
-  line-height: 12pt;
-  font-size: 16pt;
+  line-height: 13pt;
+  font-size: 20pt;
   font-weight: 500;
   margin-bottom: 4pt;
 }
 .kop-3,
 .kop-4 {
-  line-height: 9pt;
-  font-size: 9pt;
+  line-height: 8pt;
+  font-size: 7.5pt;
   font-weight: 300;
 }
 hr {
-  margin: 8pt 0;
+  margin-bottom: 8mm;
 }
 
 /* SURAT KET MDS*/
@@ -157,38 +156,41 @@ hr {
   margin: 0;
 }
 .form-section {
-  margin-top: 10mm;
+  margin-top: 8mm;
 }
-.h3 {
-  margin: auto;
-  margin-top: 6pt;
-  padding-left: 0.75pt;
-  font-size: 11pt;
-  font-weight: 500;
-}
-.text-center {
-  margin: auto;
-  margin-bottom: 9pt;
+.heading-surat {
   text-align: center;
 }
+.bismillah {
+  text-align: center;
+  margin-top: 14pt;
+  margin-bottom: 6pt;
+}
+.heading-surat p {
+  margin: auto;
+}
+.pembuka-surat table p {
+  margin: 0;
+  margin-bottom: 8pt;
+}
 main table tr td {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0;
   margin: 0;
   line-height: 12.25pt;
   vertical-align: top;
+}
+.italic {
+  font-style: italic;
 }
 .col-label {
   width: 25mm;
   font-weight: 400;
   font-style: italic;
 }
-.spasi-td {
-  width: 10mm;
-}
 h2 {
   font-size: 13pt;
-  margin: 10pt auto;
+  margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
@@ -204,5 +206,6 @@ h2 {
   margin: auto;
 }
 .ttd-pengurus p {
+  margin: auto;
   text-align: center;
 }
