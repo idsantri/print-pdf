@@ -102,7 +102,7 @@ body {
 
 /* config all */
 @page {
-  margin: 8mm 20mm;
+  margin: 8mm 22mm;
   padding: 0;
 }
 header {
@@ -187,7 +187,7 @@ h2 {
 }
 footer {
   padding: 0;
-  margin: 20pt 0 0 0;
+  margin: 10pt 0 0 0;
   font-size: 9pt;
   line-height: 10pt;
 }
