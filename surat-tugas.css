@@ -209,3 +209,18 @@ h2 {
   margin: auto;
   text-align: center;
 }
+.ttd-pengasuh {
+  position: relative;
+}
+.tt {
+  width: 100pt;
+  height: 100pt;
+  /* background-color: rgb(188, 103, 0); */
+  position: absolute;
+  margin-top: -15pt;
+  text-align: center;
+  left: 39%;
+}
+.tt img {
+  width: 100%;
+}
